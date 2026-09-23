@@ -28,7 +28,6 @@
 
         h1 { text-align: center; font-size: 2.5rem; margin-bottom: 25px; }
 
-        /* Raster-Layout für die oberen Kacheln */
         .dashboard-grid {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
@@ -50,13 +49,11 @@
         .value { font-size: 2.8rem; font-weight: bold; margin: 15px 0; }
         .unit { font-size: 1.3rem; color: #888; }
 
-        /* Licht-Status */
         .light-item { display: flex; justify-content: space-between; padding: 10px 0; font-size: 1.2rem; border-bottom: 1px solid #2c2c3e; }
         .light-item:last-child { border-bottom: none; }
         .status-on { color: var(--light-color); font-weight: bold; }
         .status-off { color: #555; }
 
-        /* Kalender 4 Spalten */
         .calendar-section { grid-column: 1 / -1; }
         .calendar-columns { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 15px; margin-top: 15px; }
         
@@ -138,13 +135,10 @@
     <div class="footer">Letztes Signal: <span id="last-update">-</span></div>
 
     <script>
-        // Automatisch auf die JSON-Datei im selben Ordner ausgerichtet
         const DATA_URL = 'daten.json';
 
-        // Ihre Google Kalender ID
         const ID_PAPA_PRIVAT = "cbecker.pw@googlemail.com";
-        // Platzhalter für den Familienkalender (Später bei Bedarf anpassen)
-        const ID_FAMILIENKALENDER = "family12345@://google.com";
+        const ID_FAMILIENKALENDER = "family12345@group.calendar.google.com"; 
 
         async function updateDashboard() {
             try {
@@ -158,7 +152,6 @@
                 document.getElementById('zappi-power').innerHTML = `${((data.zappi_power_watt || 0) / 1000).toFixed(1)} <span class="unit">kW</span>`;
                 document.getElementById('zappi-status').innerText = data.zappi_status || "Standby";
 
-                // Visueller Text für Kinder beim Stromfluss
                 const flowText = data.pv_power_watt > 500 ? "🌞 Die Sonne schenkt uns Strom!" : "🌙 Wir verbrauchen gespeicherten Strom.";
                 document.getElementById('energy-flow').innerHTML = `🔋 Batterie-Inhalt: ${data.battery_soc || 0}%<br><br>✨ ${flowText}`;
 
@@ -167,7 +160,7 @@
                 setLightState('light-irma', data.light_irma_on, "💡 AN ✨", "Aus 💤");
                 setLightState('light-living', data.light_living_on, "💡 AN ✨", "Aus 💤");
 
-                // 3. Kalenderlisten leeren & sortieren
+                // 3. Kalender-Sortierung
                 const lists = {
                     papa: document.getElementById('list-papa'),
                     mama: document.getElementById('list-mama'),
@@ -182,7 +175,6 @@
                         const titleLower = event.title.toLowerCase();
                         const originId = event.calendar_id;
 
-                        // Filter-Regeln nach Text & Herkunft
                         if (originId === ID_PAPA_PRIVAT || titleLower.includes('papa')) {
                             addEvent(lists.papa, event); counts.papa++;
                         }
@@ -198,7 +190,6 @@
                     });
                 }
 
-                // Platzhalter für leere Tage
                 if(counts.papa === 0) lists.papa.innerHTML = '<li class="event-item" style="color:#555">Spielzeit! 🧸</li>';
                 if(counts.mama === 0) lists.mama.innerHTML = '<li class="event-item" style="color:#555">Spielzeit! 🧸</li>';
                 if(counts.oskar === 0) lists.oskar.innerHTML = '<li class="event-item" style="color:#555">Freizeit! 🚀</li>';
@@ -208,7 +199,7 @@
                 document.getElementById('last-update').innerText = jetzt.toLocaleTimeString('de-DE');
 
             } catch (e) { 
-                console.log("Warte auf erste daten.json von Pipedream..."); 
+                console.log("Fehler beim Verarbeiten der json:", e); 
             }
         }
 
@@ -221,3 +212,15 @@
             }
         }
 
+        function addEvent(listElement, event) {
+            const li = document.createElement('li');
+            li.className = 'event-item';
+            li.innerHTML = `<strong>${event.title}</strong><span class="event-time">⏰ ${event.time}</span>`;
+            listElement.appendChild(li);
+        }
+
+        updateDashboard();
+        setInterval(updateDashboard, 10000);
+    </script>
+</body>
+</html>
