@@ -1,0 +1,4282 @@
+{
+  "calendar_events": [
+    {
+      "kind": "calendar#event",
+      "etag": "\"3324243136590000\"",
+      "id": "clgjce1jcks68b9i6th3eb9k6csj8b9p70qm2b9n6dgm8pb671i38cj6co_20260928T181500Z",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=Y2xnamNlMWpja3M2OGI5aTZ0aDNlYjlrNmNzajhiOXA3MHFtMmI5bjZkZ204cGI2NzFpMzhjajZjb18yMDI2MDkyOFQxODE1MDBaIGNiZWNrZXIucHdAZ29vZ2xlbWFpbC5jb20",
+      "created": "2022-09-02T12:26:08.000Z",
+      "updated": "2022-09-02T12:26:08.295Z",
+      "summary": "Papiere/Hausarbeit",
+      "creator": {
+        "email": "cbecker.pw@googlemail.com",
+        "self": true
+      },
+      "organizer": {
+        "email": "cbecker.pw@googlemail.com",
+        "self": true
+      },
+      "start": {
+        "dateTime": "2026-09-28T20:15:00+02:00",
+        "timeZone": "Europe/Berlin"
+      },
+      "end": {
+        "dateTime": "2026-09-28T22:00:00+02:00",
+        "timeZone": "Europe/Berlin"
+      },
+      "recurringEventId": "clgjce1jcks68b9i6th3eb9k6csj8b9p70qm2b9n6dgm8pb671i38cj6co",
+      "originalStartTime": {
+        "dateTime": "2026-09-28T20:15:00+02:00",
+        "timeZone": "Europe/Berlin"
+      },
+      "iCalUID": "clgjce1jcks68b9i6th3eb9k6csj8b9p70qm2b9n6dgm8pb671i38cj6co@google.com",
+      "sequence": 0,
+      "reminders": {
+        "useDefault": true
+      },
+      "eventType": "default"
+    },
+    {
+      "kind": "calendar#event",
+      "etag": "\"3122377934944000\"",
+      "id": "6os38c1l71j34b9ocdi64b9kc8o6cb9o6pijabb475hm2dpo6kpj2p1pc8_20260930",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=Nm9zMzhjMWw3MWozNGI5b2NkaTY0YjlrYzhvNmNiOW82cGlqYWJiNDc1aG0yZHBvNmtwajJwMXBjOF8yMDI2MDkzMCBjYmVja2VyLnB3QGdvb2dsZW1haWwuY29t",
+      "created": "2019-06-22T07:36:07.000Z",
+      "updated": "2019-06-22T07:36:07.575Z",
+      "summary": "Sabine Koch Geburtstag",
+      "location": "Königsberger Str. 12, 32457 Porta Westfalica, Deutschland",
+      "creator": {
+        "email": "cbecker.pw@googlemail.com",
+        "self": true
+      },
+      "organizer": {
+        "email": "cbecker.pw@googlemail.com",
+        "self": true
+      },
+      "start": {
+        "date": "2026-09-30"
+      },
+      "end": {
+        "date": "2026-10-01"
+      },
+      "recurringEventId": "6os38c1l71j34b9ocdi64b9kc8o6cb9o6pijabb475hm2dpo6kpj2p1pc8",
+      "originalStartTime": {
+        "date": "2026-09-30"
+      },
+      "transparency": "transparent",
+      "iCalUID": "6os38c1l71j34b9ocdi64b9kc8o6cb9o6pijabb475hm2dpo6kpj2p1pc8@google.com",
+      "sequence": 0,
+      "extendedProperties": {
+        "private": {
+          "eventAttendeeList": "[]"
+        }
+      },
+      "reminders": {
+        "useDefault": false,
+        "overrides": [
+          {
+            "method": "popup",
+            "minutes": 10
+          },
+          {
+            "method": "email",
+            "minutes": 430
+          }
+        ]
+      },
+      "eventType": "default"
+    },
+    {
+      "kind": "calendar#event",
+      "etag": "\"2788433573662000\"",
+      "id": "_b194ija38562qdhp68pjgcpi74siqd1i6grjgcho6oqiqe9j74rjge1m_20261001",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=X2IxOTRpamEzODU2MnFkaHA2OHBqZ2NwaTc0c2lxZDFpNmdyamdjaG82b3FpcWU5ajc0cmpnZTFtXzIwMjYxMDAxIGNiZWNrZXIucHdAZ29vZ2xlbWFpbC5jb20",
+      "created": "2014-03-07T18:26:26.000Z",
+      "updated": "2014-03-07T18:26:26.739Z",
+      "summary": "Geburtstag: Heinz - Gerd Becker",
+      "creator": {
+        "email": "cbecker.pw@googlemail.com",
+        "displayName": "Christian Becker",
+        "self": true
+      },
+      "organizer": {
+        "email": "cbecker.pw@googlemail.com",
+        "displayName": "Christian Becker",
+        "self": true
+      },
+      "start": {
+        "date": "2026-10-01"
+      },
+      "end": {
+        "date": "2026-10-02"
+      },
+      "recurringEventId": "_b194ija38562qdhp68pjgcpi74siqd1i6grjgcho6oqiqe9j74rjge1m",
+      "originalStartTime": {
+        "date": "2026-10-01"
+      },
+      "transparency": "transparent",
+      "visibility": "public",
+      "iCalUID": "XRIMCAL-692383299-424782865-9397886",
+      "sequence": 0,
+      "extendedProperties": {
+        "shared": {
+          "X-MICROSOFT-CDO-BUSYSTATUS": "BUSY"
+        }
+      },
+      "reminders": {
+        "useDefault": false,
+        "overrides": [
+          {
+            "method": "popup",
+            "minutes": 15
+          }
+        ]
+      },
+      "eventType": "default"
+    },
+    {
+      "kind": "calendar#event",
+      "etag": "\"3324243136590000\"",
+      "id": "clgjce1jcks68b9i6th3eb9k6csj8b9p70qm2b9n6dgm8pb671i38cj6co_20261005T181500Z",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=Y2xnamNlMWpja3M2OGI5aTZ0aDNlYjlrNmNzajhiOXA3MHFtMmI5bjZkZ204cGI2NzFpMzhjajZjb18yMDI2MTAwNVQxODE1MDBaIGNiZWNrZXIucHdAZ29vZ2xlbWFpbC5jb20",
+      "created": "2022-09-02T12:26:08.000Z",
+      "updated": "2022-09-02T12:26:08.295Z",
+      "summary": "Papiere/Hausarbeit",
+      "creator": {
+        "email": "cbecker.pw@googlemail.com",
+        "self": true
+      },
+      "organizer": {
+        "email": "cbecker.pw@googlemail.com",
+        "self": true
+      },
+      "start": {
+        "dateTime": "2026-10-05T20:15:00+02:00",
+        "timeZone": "Europe/Berlin"
+      },
+      "end": {
+        "dateTime": "2026-10-05T22:00:00+02:00",
+        "timeZone": "Europe/Berlin"
+      },
+      "recurringEventId": "clgjce1jcks68b9i6th3eb9k6csj8b9p70qm2b9n6dgm8pb671i38cj6co",
+      "originalStartTime": {
+        "dateTime": "2026-10-05T20:15:00+02:00",
+        "timeZone": "Europe/Berlin"
+      },
+      "iCalUID": "clgjce1jcks68b9i6th3eb9k6csj8b9p70qm2b9n6dgm8pb671i38cj6co@google.com",
+      "sequence": 0,
+      "reminders": {
+        "useDefault": true
+      },
+      "eventType": "default"
+    },
+    {
+      "kind": "calendar#event",
+      "etag": "\"3580159312207678\"",
+      "id": "htnug1pegamq6s29lh1ebcsqas_20261007",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=aHRudWcxcGVnYW1xNnMyOWxoMWViY3NxYXNfMjAyNjEwMDcgY2JlY2tlci5wd0Bnb29nbGVtYWlsLmNvbQ",
+      "created": "2023-11-07T07:54:14.000Z",
+      "updated": "2026-09-22T12:20:56.103Z",
+      "summary": "HO",
+      "creator": {
+        "email": "cbecker.pw@googlemail.com",
+        "self": true
+      },
+      "organizer": {
+        "email": "cbecker.pw@googlemail.com",
+        "self": true
+      },
+      "start": {
+        "date": "2026-10-07"
+      },
+      "end": {
+        "date": "2026-10-08"
+      },
+      "recurringEventId": "htnug1pegamq6s29lh1ebcsqas",
+      "originalStartTime": {
+        "date": "2026-10-07"
+      },
+      "transparency": "transparent",
+      "iCalUID": "htnug1pegamq6s29lh1ebcsqas@google.com",
+      "sequence": 2,
+      "reminders": {
+        "useDefault": false,
+        "overrides": [
+          {
+            "method": "email",
+            "minutes": 430
+          },
+          {
+            "method": "popup",
+            "minutes": 10
+          }
+        ]
+      },
+      "eventType": "default"
+    },
+    {
+      "kind": "calendar#event",
+      "etag": "\"3536055231328766\"",
+      "id": "copj4e9i6kq68b9n6cr6cb9k6kqj8b9pc9gjgb9oc4qjiohjcdi6cd346c",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=Y29wajRlOWk2a3E2OGI5bjZjcjZjYjlrNmtxajhiOXBjOWdqZ2I5b2M0cWppb2hqY2RpNmNkMzQ2YyBjYmVja2VyLnB3QGdvb2dsZW1haWwuY29t",
+      "created": "2026-01-10T06:46:55.000Z",
+      "updated": "2026-01-10T06:46:55.664Z",
+      "summary": "10. Hochzeitstag Steffi & Steffen",
+      "creator": {
+        "email": "cbecker.pw@googlemail.com",
+        "self": true
+      },
+      "organizer": {
+        "email": "cbecker.pw@googlemail.com",
+        "self": true
+      },
+      "start": {
+        "date": "2026-10-10"
+      },
+      "end": {
+        "date": "2026-10-11"
+      },
+      "transparency": "transparent",
+      "iCalUID": "copj4e9i6kq68b9n6cr6cb9k6kqj8b9pc9gjgb9oc4qjiohjcdi6cd346c@google.com",
+      "sequence": 0,
+      "reminders": {
+        "useDefault": false,
+        "overrides": [
+          {
+            "method": "email",
+            "minutes": 430
+          },
+          {
+            "method": "popup",
+            "minutes": 10
+          }
+        ]
+      },
+      "eventType": "default"
+    },
+    {
+      "kind": "calendar#event",
+      "etag": "\"3070821093916000\"",
+      "id": "6pgj2ob3cli32b9lc5j3gb9kckq3ibb1chhm4bb5cdj3cohi60s6ccpico_20261012T100000Z",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=NnBnajJvYjNjbGkzMmI5bGM1ajNnYjlrY2txM2liYjFjaGhtNGJiNWNkajNjb2hpNjBzNmNjcGljb18yMDI2MTAxMlQxMDAwMDBaIGNiZWNrZXIucHdAZ29vZ2xlbWFpbC5jb20",
+      "created": "2018-08-21T09:37:04.000Z",
+      "updated": "2018-09-03T12:14:29.432Z",
+      "summary": "1Monatiges Susi 12.08.2018",
+      "creator": {
+        "email": "cbecker.pw@googlemail.com",
+        "displayName": "Christian Becker",
+        "self": true
+      },
+      "organizer": {
+        "email": "cbecker.pw@googlemail.com",
+        "displayName": "Christian Becker",
+        "self": true
+      },
+      "start": {
+        "dateTime": "2026-10-12T12:00:00+02:00",
+        "timeZone": "Europe/Berlin"
+      },
+      "end": {
+        "dateTime": "2026-10-12T13:00:00+02:00",
+        "timeZone": "Europe/Berlin"
+      },
+      "recurringEventId": "6pgj2ob3cli32b9lc5j3gb9kckq3ibb1chhm4bb5cdj3cohi60s6ccpico",
+      "originalStartTime": {
+        "dateTime": "2026-10-12T12:00:00+02:00",
+        "timeZone": "Europe/Berlin"
+      },
+      "iCalUID": "6pgj2ob3cli32b9lc5j3gb9kckq3ibb1chhm4bb5cdj3cohi60s6ccpico@google.com",
+      "sequence": 2,
+      "extendedProperties": {
+        "private": {
+          "eventAttendeeList": "[]"
+        }
+      },
+      "reminders": {
+        "useDefault": false,
+        "overrides": [
+          {
+            "method": "email",
+            "minutes": 10
+          },
+          {
+            "method": "popup",
+            "minutes": 10
+          }
+        ]
+      },
+      "eventType": "default"
+    },
+    {
+      "kind": "calendar#event",
+      "etag": "\"3324243136590000\"",
+      "id": "clgjce1jcks68b9i6th3eb9k6csj8b9p70qm2b9n6dgm8pb671i38cj6co_20261012T181500Z",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=Y2xnamNlMWpja3M2OGI5aTZ0aDNlYjlrNmNzajhiOXA3MHFtMmI5bjZkZ204cGI2NzFpMzhjajZjb18yMDI2MTAxMlQxODE1MDBaIGNiZWNrZXIucHdAZ29vZ2xlbWFpbC5jb20",
+      "created": "2022-09-02T12:26:08.000Z",
+      "updated": "2022-09-02T12:26:08.295Z",
+      "summary": "Papiere/Hausarbeit",
+      "creator": {
+        "email": "cbecker.pw@googlemail.com",
+        "self": true
+      },
+      "organizer": {
+        "email": "cbecker.pw@googlemail.com",
+        "self": true
+      },
+      "start": {
+        "dateTime": "2026-10-12T20:15:00+02:00",
+        "timeZone": "Europe/Berlin"
+      },
+      "end": {
+        "dateTime": "2026-10-12T22:00:00+02:00",
+        "timeZone": "Europe/Berlin"
+      },
+      "recurringEventId": "clgjce1jcks68b9i6th3eb9k6csj8b9p70qm2b9n6dgm8pb671i38cj6co",
+      "originalStartTime": {
+        "dateTime": "2026-10-12T20:15:00+02:00",
+        "timeZone": "Europe/Berlin"
+      },
+      "iCalUID": "clgjce1jcks68b9i6th3eb9k6csj8b9p70qm2b9n6dgm8pb671i38cj6co@google.com",
+      "sequence": 0,
+      "reminders": {
+        "useDefault": true
+      },
+      "eventType": "default"
+    },
+    {
+      "kind": "calendar#event",
+      "etag": "\"3580159312207678\"",
+      "id": "n4a6vmq83mtf5g6d5rc06d3q76_20261016",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=bjRhNnZtcTgzbXRmNWc2ZDVyYzA2ZDNxNzZfMjAyNjEwMTYgY2JlY2tlci5wd0Bnb29nbGVtYWlsLmNvbQ",
+      "created": "2023-11-07T07:54:14.000Z",
+      "updated": "2026-09-22T12:20:56.103Z",
+      "summary": "HO",
+      "creator": {
+        "email": "cbecker.pw@googlemail.com",
+        "self": true
+      },
+      "organizer": {
+        "email": "cbecker.pw@googlemail.com",
+        "self": true
+      },
+      "start": {
+        "date": "2026-10-16"
+      },
+      "end": {
+        "date": "2026-10-17"
+      },
+      "recurringEventId": "n4a6vmq83mtf5g6d5rc06d3q76",
+      "originalStartTime": {
+        "date": "2026-10-16"
+      },
+      "transparency": "transparent",
+      "iCalUID": "n4a6vmq83mtf5g6d5rc06d3q76@google.com",
+      "sequence": 3,
+      "reminders": {
+        "useDefault": false,
+        "overrides": [
+          {
+            "method": "email",
+            "minutes": 430
+          },
+          {
+            "method": "popup",
+            "minutes": 10
+          }
+        ]
+      },
+      "eventType": "default"
+    },
+    {
+      "kind": "calendar#event",
+      "etag": "\"3078901834803000\"",
+      "id": "cop6ccb46ksm8b9mcph62b9kccomcbb2c5ij6bb66kr30e316di3iphnco_20261019T150000Z",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=Y29wNmNjYjQ2a3NtOGI5bWNwaDYyYjlrY2NvbWNiYjJjNWlqNmJiNjZrcjMwZTMxNmRpM2lwaG5jb18yMDI2MTAxOVQxNTAwMDBaIGNiZWNrZXIucHdAZ29vZ2xlbWFpbC5jb20",
+      "created": "2018-10-08T16:51:30.000Z",
+      "updated": "2018-10-18T17:39:03.937Z",
+      "summary": "Josy Geburtstag 2010",
+      "creator": {
+        "email": "cbecker.pw@googlemail.com",
+        "displayName": "Christian Becker",
+        "self": true
+      },
+      "organizer": {
+        "email": "cbecker.pw@googlemail.com",
+        "displayName": "Christian Becker",
+        "self": true
+      },
+      "start": {
+        "dateTime": "2026-10-19T17:00:00+02:00",
+        "timeZone": "Europe/Berlin"
+      },
+      "end": {
+        "dateTime": "2026-10-19T18:00:00+02:00",
+        "timeZone": "Europe/Berlin"
+      },
+      "recurringEventId": "cop6ccb46ksm8b9mcph62b9kccomcbb2c5ij6bb66kr30e316di3iphnco",
+      "originalStartTime": {
+        "dateTime": "2026-10-19T17:00:00+02:00",
+        "timeZone": "Europe/Berlin"
+      },
+      "iCalUID": "cop6ccb46ksm8b9mcph62b9kccomcbb2c5ij6bb66kr30e316di3iphnco@google.com",
+      "sequence": 1,
+      "extendedProperties": {
+        "private": {
+          "eventAttendeeList": "[]"
+        }
+      },
+      "reminders": {
+        "useDefault": false,
+        "overrides": [
+          {
+            "method": "email",
+            "minutes": 10
+          },
+          {
+            "method": "popup",
+            "minutes": 10
+          }
+        ]
+      },
+      "eventType": "default"
+    },
+    {
+      "kind": "calendar#event",
+      "etag": "\"3324243136590000\"",
+      "id": "clgjce1jcks68b9i6th3eb9k6csj8b9p70qm2b9n6dgm8pb671i38cj6co_20261019T181500Z",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=Y2xnamNlMWpja3M2OGI5aTZ0aDNlYjlrNmNzajhiOXA3MHFtMmI5bjZkZ204cGI2NzFpMzhjajZjb18yMDI2MTAxOVQxODE1MDBaIGNiZWNrZXIucHdAZ29vZ2xlbWFpbC5jb20",
+      "created": "2022-09-02T12:26:08.000Z",
+      "updated": "2022-09-02T12:26:08.295Z",
+      "summary": "Papiere/Hausarbeit",
+      "creator": {
+        "email": "cbecker.pw@googlemail.com",
+        "self": true
+      },
+      "organizer": {
+        "email": "cbecker.pw@googlemail.com",
+        "self": true
+      },
+      "start": {
+        "dateTime": "2026-10-19T20:15:00+02:00",
+        "timeZone": "Europe/Berlin"
+      },
+      "end": {
+        "dateTime": "2026-10-19T22:00:00+02:00",
+        "timeZone": "Europe/Berlin"
+      },
+      "recurringEventId": "clgjce1jcks68b9i6th3eb9k6csj8b9p70qm2b9n6dgm8pb671i38cj6co",
+      "originalStartTime": {
+        "dateTime": "2026-10-19T20:15:00+02:00",
+        "timeZone": "Europe/Berlin"
+      },
+      "iCalUID": "clgjce1jcks68b9i6th3eb9k6csj8b9p70qm2b9n6dgm8pb671i38cj6co@google.com",
+      "sequence": 0,
+      "reminders": {
+        "useDefault": true
+      },
+      "eventType": "default"
+    },
+    {
+      "kind": "calendar#event",
+      "etag": "\"3580159312207678\"",
+      "id": "n4a6vmq83mtf5g6d5rc06d3q76_20261023",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=bjRhNnZtcTgzbXRmNWc2ZDVyYzA2ZDNxNzZfMjAyNjEwMjMgY2JlY2tlci5wd0Bnb29nbGVtYWlsLmNvbQ",
+      "created": "2023-11-07T07:54:14.000Z",
+      "updated": "2026-09-22T12:20:56.103Z",
+      "summary": "HO",
+      "creator": {
+        "email": "cbecker.pw@googlemail.com",
+        "self": true
+      },
+      "organizer": {
+        "email": "cbecker.pw@googlemail.com",
+        "self": true
+      },
+      "start": {
+        "date": "2026-10-23"
+      },
+      "end": {
+        "date": "2026-10-24"
+      },
+      "recurringEventId": "n4a6vmq83mtf5g6d5rc06d3q76",
+      "originalStartTime": {
+        "date": "2026-10-23"
+      },
+      "transparency": "transparent",
+      "iCalUID": "n4a6vmq83mtf5g6d5rc06d3q76@google.com",
+      "sequence": 3,
+      "reminders": {
+        "useDefault": false,
+        "overrides": [
+          {
+            "method": "email",
+            "minutes": 430
+          },
+          {
+            "method": "popup",
+            "minutes": 10
+          }
+        ]
+      },
+      "eventType": "default"
+    },
+    {
+      "kind": "calendar#event",
+      "etag": "\"3529503861415678\"",
+      "id": "68r62opmcgrj0b9ic8o64b9kcph6cb9p74qj4bb36phjcd1iccpm2cb2co",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=NjhyNjJvcG1jZ3JqMGI5aWM4bzY0YjlrY3BoNmNiOXA3NHFqNGJiMzZwaGpjZDFpY2NwbTJjYjJjbyBjYmVja2VyLnB3QGdvb2dsZW1haWwuY29t",
+      "created": "2025-12-03T08:52:10.000Z",
+      "updated": "2025-12-03T08:52:10.707Z",
+      "summary": "Wago Patchday Zeitumstellung",
+      "creator": {
+        "email": "cbecker.pw@googlemail.com",
+        "self": true
+      },
+      "organizer": {
+        "email": "cbecker.pw@googlemail.com",
+        "self": true
+      },
+      "start": {
+        "dateTime": "2026-10-25T02:00:00+02:00",
+        "timeZone": "Europe/Berlin"
+      },
+      "end": {
+        "dateTime": "2026-10-25T04:00:00+01:00",
+        "timeZone": "Europe/Berlin"
+      },
+      "iCalUID": "68r62opmcgrj0b9ic8o64b9kcph6cb9p74qj4bb36phjcd1iccpm2cb2co@google.com",
+      "sequence": 0,
+      "reminders": {
+        "useDefault": true
+      },
+      "eventType": "default"
+    },
+    {
+      "kind": "calendar#event",
+      "etag": "\"3531930223349854\"",
+      "id": "ccqj0d9n71ijab9h6gsm6b9kcop34b9pclh34b9gc4s3cp346tj64e1hck",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=Y2NxajBkOW43MWlqYWI5aDZnc202YjlrY29wMzRiOXBjbGgzNGI5Z2M0czNjcDM0NnRqNjRlMWhjayBjYmVja2VyLnB3QGdvb2dsZW1haWwuY29t",
+      "created": "2025-12-17T09:51:51.000Z",
+      "updated": "2025-12-17T09:51:51.674Z",
+      "summary": "Urlaub",
+      "creator": {
+        "email": "cbecker.pw@googlemail.com",
+        "self": true
+      },
+      "organizer": {
+        "email": "cbecker.pw@googlemail.com",
+        "self": true
+      },
+      "start": {
+        "date": "2026-10-26"
+      },
+      "end": {
+        "date": "2026-10-31"
+      },
+      "transparency": "transparent",
+      "iCalUID": "ccqj0d9n71ijab9h6gsm6b9kcop34b9pclh34b9gc4s3cp346tj64e1hck@google.com",
+      "sequence": 0,
+      "reminders": {
+        "useDefault": false,
+        "overrides": [
+          {
+            "method": "email",
+            "minutes": 430
+          },
+          {
+            "method": "popup",
+            "minutes": 10
+          }
+        ]
+      },
+      "eventType": "default"
+    },
+    {
+      "kind": "calendar#event",
+      "etag": "\"3324243136590000\"",
+      "id": "clgjce1jcks68b9i6th3eb9k6csj8b9p70qm2b9n6dgm8pb671i38cj6co_20261026T191500Z",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=Y2xnamNlMWpja3M2OGI5aTZ0aDNlYjlrNmNzajhiOXA3MHFtMmI5bjZkZ204cGI2NzFpMzhjajZjb18yMDI2MTAyNlQxOTE1MDBaIGNiZWNrZXIucHdAZ29vZ2xlbWFpbC5jb20",
+      "created": "2022-09-02T12:26:08.000Z",
+      "updated": "2022-09-02T12:26:08.295Z",
+      "summary": "Papiere/Hausarbeit",
+      "creator": {
+        "email": "cbecker.pw@googlemail.com",
+        "self": true
+      },
+      "organizer": {
+        "email": "cbecker.pw@googlemail.com",
+        "self": true
+      },
+      "start": {
+        "dateTime": "2026-10-26T20:15:00+01:00",
+        "timeZone": "Europe/Berlin"
+      },
+      "end": {
+        "dateTime": "2026-10-26T22:00:00+01:00",
+        "timeZone": "Europe/Berlin"
+      },
+      "recurringEventId": "clgjce1jcks68b9i6th3eb9k6csj8b9p70qm2b9n6dgm8pb671i38cj6co",
+      "originalStartTime": {
+        "dateTime": "2026-10-26T20:15:00+01:00",
+        "timeZone": "Europe/Berlin"
+      },
+      "iCalUID": "clgjce1jcks68b9i6th3eb9k6csj8b9p70qm2b9n6dgm8pb671i38cj6co@google.com",
+      "sequence": 0,
+      "reminders": {
+        "useDefault": true
+      },
+      "eventType": "default"
+    },
+    {
+      "kind": "calendar#event",
+      "etag": "\"3580159312207678\"",
+      "id": "n4a6vmq83mtf5g6d5rc06d3q76_20261030",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=bjRhNnZtcTgzbXRmNWc2ZDVyYzA2ZDNxNzZfMjAyNjEwMzAgY2JlY2tlci5wd0Bnb29nbGVtYWlsLmNvbQ",
+      "created": "2023-11-07T07:54:14.000Z",
+      "updated": "2026-09-22T12:20:56.103Z",
+      "summary": "HO",
+      "creator": {
+        "email": "cbecker.pw@googlemail.com",
+        "self": true
+      },
+      "organizer": {
+        "email": "cbecker.pw@googlemail.com",
+        "self": true
+      },
+      "start": {
+        "date": "2026-10-30"
+      },
+      "end": {
+        "date": "2026-10-31"
+      },
+      "recurringEventId": "n4a6vmq83mtf5g6d5rc06d3q76",
+      "originalStartTime": {
+        "date": "2026-10-30"
+      },
+      "transparency": "transparent",
+      "iCalUID": "n4a6vmq83mtf5g6d5rc06d3q76@google.com",
+      "sequence": 3,
+      "reminders": {
+        "useDefault": false,
+        "overrides": [
+          {
+            "method": "email",
+            "minutes": 430
+          },
+          {
+            "method": "popup",
+            "minutes": 10
+          }
+        ]
+      },
+      "eventType": "default"
+    },
+    {
+      "kind": "calendar#event",
+      "etag": "\"3324243136590000\"",
+      "id": "clgjce1jcks68b9i6th3eb9k6csj8b9p70qm2b9n6dgm8pb671i38cj6co_20261102T191500Z",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=Y2xnamNlMWpja3M2OGI5aTZ0aDNlYjlrNmNzajhiOXA3MHFtMmI5bjZkZ204cGI2NzFpMzhjajZjb18yMDI2MTEwMlQxOTE1MDBaIGNiZWNrZXIucHdAZ29vZ2xlbWFpbC5jb20",
+      "created": "2022-09-02T12:26:08.000Z",
+      "updated": "2022-09-02T12:26:08.295Z",
+      "summary": "Papiere/Hausarbeit",
+      "creator": {
+        "email": "cbecker.pw@googlemail.com",
+        "self": true
+      },
+      "organizer": {
+        "email": "cbecker.pw@googlemail.com",
+        "self": true
+      },
+      "start": {
+        "dateTime": "2026-11-02T20:15:00+01:00",
+        "timeZone": "Europe/Berlin"
+      },
+      "end": {
+        "dateTime": "2026-11-02T22:00:00+01:00",
+        "timeZone": "Europe/Berlin"
+      },
+      "recurringEventId": "clgjce1jcks68b9i6th3eb9k6csj8b9p70qm2b9n6dgm8pb671i38cj6co",
+      "originalStartTime": {
+        "dateTime": "2026-11-02T20:15:00+01:00",
+        "timeZone": "Europe/Berlin"
+      },
+      "iCalUID": "clgjce1jcks68b9i6th3eb9k6csj8b9p70qm2b9n6dgm8pb671i38cj6co@google.com",
+      "sequence": 0,
+      "reminders": {
+        "useDefault": true
+      },
+      "eventType": "default"
+    },
+    {
+      "kind": "calendar#event",
+      "etag": "\"3580159312207678\"",
+      "id": "n4a6vmq83mtf5g6d5rc06d3q76_20261106",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=bjRhNnZtcTgzbXRmNWc2ZDVyYzA2ZDNxNzZfMjAyNjExMDYgY2JlY2tlci5wd0Bnb29nbGVtYWlsLmNvbQ",
+      "created": "2023-11-07T07:54:14.000Z",
+      "updated": "2026-09-22T12:20:56.103Z",
+      "summary": "HO",
+      "creator": {
+        "email": "cbecker.pw@googlemail.com",
+        "self": true
+      },
+      "organizer": {
+        "email": "cbecker.pw@googlemail.com",
+        "self": true
+      },
+      "start": {
+        "date": "2026-11-06"
+      },
+      "end": {
+        "date": "2026-11-07"
+      },
+      "recurringEventId": "n4a6vmq83mtf5g6d5rc06d3q76",
+      "originalStartTime": {
+        "date": "2026-11-06"
+      },
+      "transparency": "transparent",
+      "iCalUID": "n4a6vmq83mtf5g6d5rc06d3q76@google.com",
+      "sequence": 3,
+      "reminders": {
+        "useDefault": false,
+        "overrides": [
+          {
+            "method": "email",
+            "minutes": 430
+          },
+          {
+            "method": "popup",
+            "minutes": 10
+          }
+        ]
+      },
+      "eventType": "default"
+    },
+    {
+      "kind": "calendar#event",
+      "etag": "\"3529502672860958\"",
+      "id": "cgq38ob16pj3eb9kchgjab9kcdhjcbb16sq6abb66kp3adpm6tj62e36cg",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=Y2dxMzhvYjE2cGozZWI5a2NoZ2phYjlrY2RoamNiYjE2c3E2YWJiNjZrcDNhZHBtNnRqNjJlMzZjZyBjYmVja2VyLnB3QGdvb2dsZW1haWwuY29t",
+      "created": "2025-12-03T08:42:16.000Z",
+      "updated": "2025-12-03T08:42:16.430Z",
+      "summary": "Patchday Wago",
+      "creator": {
+        "email": "cbecker.pw@googlemail.com",
+        "self": true
+      },
+      "organizer": {
+        "email": "cbecker.pw@googlemail.com",
+        "self": true
+      },
+      "start": {
+        "dateTime": "2026-11-08T14:00:00+01:00",
+        "timeZone": "Europe/Berlin"
+      },
+      "end": {
+        "dateTime": "2026-11-08T16:00:00+01:00",
+        "timeZone": "Europe/Berlin"
+      },
+      "iCalUID": "cgq38ob16pj3eb9kchgjab9kcdhjcbb16sq6abb66kp3adpm6tj62e36cg@google.com",
+      "sequence": 0,
+      "reminders": {
+        "useDefault": true
+      },
+      "eventType": "default"
+    },
+    {
+      "kind": "calendar#event",
+      "etag": "\"3324243136590000\"",
+      "id": "clgjce1jcks68b9i6th3eb9k6csj8b9p70qm2b9n6dgm8pb671i38cj6co_20261109T191500Z",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=Y2xnamNlMWpja3M2OGI5aTZ0aDNlYjlrNmNzajhiOXA3MHFtMmI5bjZkZ204cGI2NzFpMzhjajZjb18yMDI2MTEwOVQxOTE1MDBaIGNiZWNrZXIucHdAZ29vZ2xlbWFpbC5jb20",
+      "created": "2022-09-02T12:26:08.000Z",
+      "updated": "2022-09-02T12:26:08.295Z",
+      "summary": "Papiere/Hausarbeit",
+      "creator": {
+        "email": "cbecker.pw@googlemail.com",
+        "self": true
+      },
+      "organizer": {
+        "email": "cbecker.pw@googlemail.com",
+        "self": true
+      },
+      "start": {
+        "dateTime": "2026-11-09T20:15:00+01:00",
+        "timeZone": "Europe/Berlin"
+      },
+      "end": {
+        "dateTime": "2026-11-09T22:00:00+01:00",
+        "timeZone": "Europe/Berlin"
+      },
+      "recurringEventId": "clgjce1jcks68b9i6th3eb9k6csj8b9p70qm2b9n6dgm8pb671i38cj6co",
+      "originalStartTime": {
+        "dateTime": "2026-11-09T20:15:00+01:00",
+        "timeZone": "Europe/Berlin"
+      },
+      "iCalUID": "clgjce1jcks68b9i6th3eb9k6csj8b9p70qm2b9n6dgm8pb671i38cj6co@google.com",
+      "sequence": 0,
+      "reminders": {
+        "useDefault": true
+      },
+      "eventType": "default"
+    },
+    {
+      "kind": "calendar#event",
+      "etag": "\"3078035169237000\"",
+      "id": "69i3cphm60rj6b9k64rj0b9k61i34b9pcor68b9pccojgc366crjgcpm60_20261111T160000Z",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=NjlpM2NwaG02MHJqNmI5azY0cmowYjlrNjFpMzRiOXBjb3I2OGI5cGNjb2pnYzM2NmNyamdjcG02MF8yMDI2MTExMVQxNjAwMDBaIGNiZWNrZXIucHdAZ29vZ2xlbWFpbC5jb20",
+      "created": "2018-10-08T16:53:04.000Z",
+      "updated": "2018-10-08T16:53:04.712Z",
+      "summary": "Jassy Geburtstag 2015",
+      "creator": {
+        "email": "cbecker.pw@googlemail.com",
+        "displayName": "Christian Becker",
+        "self": true
+      },
+      "organizer": {
+        "email": "cbecker.pw@googlemail.com",
+        "displayName": "Christian Becker",
+        "self": true
+      },
+      "start": {
+        "dateTime": "2026-11-11T17:00:00+01:00",
+        "timeZone": "Europe/Berlin"
+      },
+      "end": {
+        "dateTime": "2026-11-11T18:00:00+01:00",
+        "timeZone": "Europe/Berlin"
+      },
+      "recurringEventId": "69i3cphm60rj6b9k64rj0b9k61i34b9pcor68b9pccojgc366crjgcpm60",
+      "originalStartTime": {
+        "dateTime": "2026-11-11T17:00:00+01:00",
+        "timeZone": "Europe/Berlin"
+      },
+      "iCalUID": "69i3cphm60rj6b9k64rj0b9k61i34b9pcor68b9pccojgc366crjgcpm60@google.com",
+      "sequence": 0,
+      "extendedProperties": {
+        "private": {
+          "eventAttendeeList": "[]"
+        }
+      },
+      "reminders": {
+        "useDefault": false,
+        "overrides": [
+          {
+            "method": "email",
+            "minutes": 10
+          },
+          {
+            "method": "popup",
+            "minutes": 10
+          }
+        ]
+      },
+      "eventType": "default"
+    },
+    {
+      "kind": "calendar#event",
+      "etag": "\"3070821093916000\"",
+      "id": "6pgj2ob3cli32b9lc5j3gb9kckq3ibb1chhm4bb5cdj3cohi60s6ccpico_20261112T110000Z",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=NnBnajJvYjNjbGkzMmI5bGM1ajNnYjlrY2txM2liYjFjaGhtNGJiNWNkajNjb2hpNjBzNmNjcGljb18yMDI2MTExMlQxMTAwMDBaIGNiZWNrZXIucHdAZ29vZ2xlbWFpbC5jb20",
+      "created": "2018-08-21T09:37:04.000Z",
+      "updated": "2018-09-03T12:14:29.432Z",
+      "summary": "1Monatiges Susi 12.08.2018",
+      "creator": {
+        "email": "cbecker.pw@googlemail.com",
+        "displayName": "Christian Becker",
+        "self": true
+      },
+      "organizer": {
+        "email": "cbecker.pw@googlemail.com",
+        "displayName": "Christian Becker",
+        "self": true
+      },
+      "start": {
+        "dateTime": "2026-11-12T12:00:00+01:00",
+        "timeZone": "Europe/Berlin"
+      },
+      "end": {
+        "dateTime": "2026-11-12T13:00:00+01:00",
+        "timeZone": "Europe/Berlin"
+      },
+      "recurringEventId": "6pgj2ob3cli32b9lc5j3gb9kckq3ibb1chhm4bb5cdj3cohi60s6ccpico",
+      "originalStartTime": {
+        "dateTime": "2026-11-12T12:00:00+01:00",
+        "timeZone": "Europe/Berlin"
+      },
+      "iCalUID": "6pgj2ob3cli32b9lc5j3gb9kckq3ibb1chhm4bb5cdj3cohi60s6ccpico@google.com",
+      "sequence": 2,
+      "extendedProperties": {
+        "private": {
+          "eventAttendeeList": "[]"
+        }
+      },
+      "reminders": {
+        "useDefault": false,
+        "overrides": [
+          {
+            "method": "email",
+            "minutes": 10
+          },
+          {
+            "method": "popup",
+            "minutes": 10
+          }
+        ]
+      },
+      "eventType": "default"
+    },
+    {
+      "kind": "calendar#event",
+      "etag": "\"3580159312207678\"",
+      "id": "n4a6vmq83mtf5g6d5rc06d3q76_20261113",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=bjRhNnZtcTgzbXRmNWc2ZDVyYzA2ZDNxNzZfMjAyNjExMTMgY2JlY2tlci5wd0Bnb29nbGVtYWlsLmNvbQ",
+      "created": "2023-11-07T07:54:14.000Z",
+      "updated": "2026-09-22T12:20:56.103Z",
+      "summary": "HO",
+      "creator": {
+        "email": "cbecker.pw@googlemail.com",
+        "self": true
+      },
+      "organizer": {
+        "email": "cbecker.pw@googlemail.com",
+        "self": true
+      },
+      "start": {
+        "date": "2026-11-13"
+      },
+      "end": {
+        "date": "2026-11-14"
+      },
+      "recurringEventId": "n4a6vmq83mtf5g6d5rc06d3q76",
+      "originalStartTime": {
+        "date": "2026-11-13"
+      },
+      "transparency": "transparent",
+      "iCalUID": "n4a6vmq83mtf5g6d5rc06d3q76@google.com",
+      "sequence": 3,
+      "reminders": {
+        "useDefault": false,
+        "overrides": [
+          {
+            "method": "email",
+            "minutes": 430
+          },
+          {
+            "method": "popup",
+            "minutes": 10
+          }
+        ]
+      },
+      "eventType": "default"
+    },
+    {
+      "kind": "calendar#event",
+      "etag": "\"3324243136590000\"",
+      "id": "clgjce1jcks68b9i6th3eb9k6csj8b9p70qm2b9n6dgm8pb671i38cj6co_20261116T191500Z",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=Y2xnamNlMWpja3M2OGI5aTZ0aDNlYjlrNmNzajhiOXA3MHFtMmI5bjZkZ204cGI2NzFpMzhjajZjb18yMDI2MTExNlQxOTE1MDBaIGNiZWNrZXIucHdAZ29vZ2xlbWFpbC5jb20",
+      "created": "2022-09-02T12:26:08.000Z",
+      "updated": "2022-09-02T12:26:08.295Z",
+      "summary": "Papiere/Hausarbeit",
+      "creator": {
+        "email": "cbecker.pw@googlemail.com",
+        "self": true
+      },
+      "organizer": {
+        "email": "cbecker.pw@googlemail.com",
+        "self": true
+      },
+      "start": {
+        "dateTime": "2026-11-16T20:15:00+01:00",
+        "timeZone": "Europe/Berlin"
+      },
+      "end": {
+        "dateTime": "2026-11-16T22:00:00+01:00",
+        "timeZone": "Europe/Berlin"
+      },
+      "recurringEventId": "clgjce1jcks68b9i6th3eb9k6csj8b9p70qm2b9n6dgm8pb671i38cj6co",
+      "originalStartTime": {
+        "dateTime": "2026-11-16T20:15:00+01:00",
+        "timeZone": "Europe/Berlin"
+      },
+      "iCalUID": "clgjce1jcks68b9i6th3eb9k6csj8b9p70qm2b9n6dgm8pb671i38cj6co@google.com",
+      "sequence": 0,
+      "reminders": {
+        "useDefault": true
+      },
+      "eventType": "default"
+    },
+    {
+      "kind": "calendar#event",
+      "etag": "\"3580159312207678\"",
+      "id": "n4a6vmq83mtf5g6d5rc06d3q76_20261120",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=bjRhNnZtcTgzbXRmNWc2ZDVyYzA2ZDNxNzZfMjAyNjExMjAgY2JlY2tlci5wd0Bnb29nbGVtYWlsLmNvbQ",
+      "created": "2023-11-07T07:54:14.000Z",
+      "updated": "2026-09-22T12:20:56.103Z",
+      "summary": "HO",
+      "creator": {
+        "email": "cbecker.pw@googlemail.com",
+        "self": true
+      },
+      "organizer": {
+        "email": "cbecker.pw@googlemail.com",
+        "self": true
+      },
+      "start": {
+        "date": "2026-11-20"
+      },
+      "end": {
+        "date": "2026-11-21"
+      },
+      "recurringEventId": "n4a6vmq83mtf5g6d5rc06d3q76",
+      "originalStartTime": {
+        "date": "2026-11-20"
+      },
+      "transparency": "transparent",
+      "iCalUID": "n4a6vmq83mtf5g6d5rc06d3q76@google.com",
+      "sequence": 3,
+      "reminders": {
+        "useDefault": false,
+        "overrides": [
+          {
+            "method": "email",
+            "minutes": 430
+          },
+          {
+            "method": "popup",
+            "minutes": 10
+          }
+        ]
+      },
+      "eventType": "default"
+    },
+    {
+      "kind": "calendar#event",
+      "etag": "\"3083910850906000\"",
+      "id": "6hijcohic8oj4b9l61j38b9kchhjib9p74qj6b9m68omaeb561ij4c3574_20261122T080000Z",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=NmhpamNvaGljOG9qNGI5bDYxajM4YjlrY2hoamliOXA3NHFqNmI5bTY4b21hZWI1NjFpajRjMzU3NF8yMDI2MTEyMlQwODAwMDBaIGNiZWNrZXIucHdAZ29vZ2xlbWFpbC5jb20",
+      "created": "2018-11-11T16:57:05.000Z",
+      "updated": "2018-11-11T16:57:05.611Z",
+      "summary": "Maike Fleher Geb.",
+      "creator": {
+        "email": "cbecker.pw@googlemail.com",
+        "displayName": "Christian Becker",
+        "self": true
+      },
+      "organizer": {
+        "email": "cbecker.pw@googlemail.com",
+        "displayName": "Christian Becker",
+        "self": true
+      },
+      "start": {
+        "dateTime": "2026-11-22T09:00:00+01:00",
+        "timeZone": "Europe/Berlin"
+      },
+      "end": {
+        "dateTime": "2026-11-22T10:00:00+01:00",
+        "timeZone": "Europe/Berlin"
+      },
+      "recurringEventId": "6hijcohic8oj4b9l61j38b9kchhjib9p74qj6b9m68omaeb561ij4c3574",
+      "originalStartTime": {
+        "dateTime": "2026-11-22T09:00:00+01:00",
+        "timeZone": "Europe/Berlin"
+      },
+      "iCalUID": "6hijcohic8oj4b9l61j38b9kchhjib9p74qj6b9m68omaeb561ij4c3574@google.com",
+      "sequence": 0,
+      "extendedProperties": {
+        "private": {
+          "eventAttendeeList": "[]"
+        }
+      },
+      "reminders": {
+        "useDefault": false,
+        "overrides": [
+          {
+            "method": "popup",
+            "minutes": 10
+          },
+          {
+            "method": "email",
+            "minutes": 10
+          }
+        ]
+      },
+      "eventType": "default"
+    },
+    {
+      "kind": "calendar#event",
+      "etag": "\"3324243136590000\"",
+      "id": "clgjce1jcks68b9i6th3eb9k6csj8b9p70qm2b9n6dgm8pb671i38cj6co_20261123T191500Z",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=Y2xnamNlMWpja3M2OGI5aTZ0aDNlYjlrNmNzajhiOXA3MHFtMmI5bjZkZ204cGI2NzFpMzhjajZjb18yMDI2MTEyM1QxOTE1MDBaIGNiZWNrZXIucHdAZ29vZ2xlbWFpbC5jb20",
+      "created": "2022-09-02T12:26:08.000Z",
+      "updated": "2022-09-02T12:26:08.295Z",
+      "summary": "Papiere/Hausarbeit",
+      "creator": {
+        "email": "cbecker.pw@googlemail.com",
+        "self": true
+      },
+      "organizer": {
+        "email": "cbecker.pw@googlemail.com",
+        "self": true
+      },
+      "start": {
+        "dateTime": "2026-11-23T20:15:00+01:00",
+        "timeZone": "Europe/Berlin"
+      },
+      "end": {
+        "dateTime": "2026-11-23T22:00:00+01:00",
+        "timeZone": "Europe/Berlin"
+      },
+      "recurringEventId": "clgjce1jcks68b9i6th3eb9k6csj8b9p70qm2b9n6dgm8pb671i38cj6co",
+      "originalStartTime": {
+        "dateTime": "2026-11-23T20:15:00+01:00",
+        "timeZone": "Europe/Berlin"
+      },
+      "iCalUID": "clgjce1jcks68b9i6th3eb9k6csj8b9p70qm2b9n6dgm8pb671i38cj6co@google.com",
+      "sequence": 0,
+      "reminders": {
+        "useDefault": true
+      },
+      "eventType": "default"
+    },
+    {
+      "kind": "calendar#event",
+      "etag": "\"3580159312207678\"",
+      "id": "n4a6vmq83mtf5g6d5rc06d3q76_20261127",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=bjRhNnZtcTgzbXRmNWc2ZDVyYzA2ZDNxNzZfMjAyNjExMjcgY2JlY2tlci5wd0Bnb29nbGVtYWlsLmNvbQ",
+      "created": "2023-11-07T07:54:14.000Z",
+      "updated": "2026-09-22T12:20:56.103Z",
+      "summary": "HO",
+      "creator": {
+        "email": "cbecker.pw@googlemail.com",
+        "self": true
+      },
+      "organizer": {
+        "email": "cbecker.pw@googlemail.com",
+        "self": true
+      },
+      "start": {
+        "date": "2026-11-27"
+      },
+      "end": {
+        "date": "2026-11-28"
+      },
+      "recurringEventId": "n4a6vmq83mtf5g6d5rc06d3q76",
+      "originalStartTime": {
+        "date": "2026-11-27"
+      },
+      "transparency": "transparent",
+      "iCalUID": "n4a6vmq83mtf5g6d5rc06d3q76@google.com",
+      "sequence": 3,
+      "reminders": {
+        "useDefault": false,
+        "overrides": [
+          {
+            "method": "email",
+            "minutes": 430
+          },
+          {
+            "method": "popup",
+            "minutes": 10
+          }
+        ]
+      },
+      "eventType": "default"
+    },
+    {
+      "kind": "calendar#event",
+      "etag": "\"3324243136590000\"",
+      "id": "clgjce1jcks68b9i6th3eb9k6csj8b9p70qm2b9n6dgm8pb671i38cj6co_20261130T191500Z",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=Y2xnamNlMWpja3M2OGI5aTZ0aDNlYjlrNmNzajhiOXA3MHFtMmI5bjZkZ204cGI2NzFpMzhjajZjb18yMDI2MTEzMFQxOTE1MDBaIGNiZWNrZXIucHdAZ29vZ2xlbWFpbC5jb20",
+      "created": "2022-09-02T12:26:08.000Z",
+      "updated": "2022-09-02T12:26:08.295Z",
+      "summary": "Papiere/Hausarbeit",
+      "creator": {
+        "email": "cbecker.pw@googlemail.com",
+        "self": true
+      },
+      "organizer": {
+        "email": "cbecker.pw@googlemail.com",
+        "self": true
+      },
+      "start": {
+        "dateTime": "2026-11-30T20:15:00+01:00",
+        "timeZone": "Europe/Berlin"
+      },
+      "end": {
+        "dateTime": "2026-11-30T22:00:00+01:00",
+        "timeZone": "Europe/Berlin"
+      },
+      "recurringEventId": "clgjce1jcks68b9i6th3eb9k6csj8b9p70qm2b9n6dgm8pb671i38cj6co",
+      "originalStartTime": {
+        "dateTime": "2026-11-30T20:15:00+01:00",
+        "timeZone": "Europe/Berlin"
+      },
+      "iCalUID": "clgjce1jcks68b9i6th3eb9k6csj8b9p70qm2b9n6dgm8pb671i38cj6co@google.com",
+      "sequence": 0,
+      "reminders": {
+        "useDefault": true
+      },
+      "eventType": "default"
+    },
+    {
+      "kind": "calendar#event",
+      "etag": "\"3580159312207678\"",
+      "id": "n4a6vmq83mtf5g6d5rc06d3q76_20261204",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=bjRhNnZtcTgzbXRmNWc2ZDVyYzA2ZDNxNzZfMjAyNjEyMDQgY2JlY2tlci5wd0Bnb29nbGVtYWlsLmNvbQ",
+      "created": "2023-11-07T07:54:14.000Z",
+      "updated": "2026-09-22T12:20:56.103Z",
+      "summary": "HO",
+      "creator": {
+        "email": "cbecker.pw@googlemail.com",
+        "self": true
+      },
+      "organizer": {
+        "email": "cbecker.pw@googlemail.com",
+        "self": true
+      },
+      "start": {
+        "date": "2026-12-04"
+      },
+      "end": {
+        "date": "2026-12-05"
+      },
+      "recurringEventId": "n4a6vmq83mtf5g6d5rc06d3q76",
+      "originalStartTime": {
+        "date": "2026-12-04"
+      },
+      "transparency": "transparent",
+      "iCalUID": "n4a6vmq83mtf5g6d5rc06d3q76@google.com",
+      "sequence": 3,
+      "reminders": {
+        "useDefault": false,
+        "overrides": [
+          {
+            "method": "email",
+            "minutes": 430
+          },
+          {
+            "method": "popup",
+            "minutes": 10
+          }
+        ]
+      },
+      "eventType": "default"
+    },
+    {
+      "kind": "calendar#event",
+      "etag": "\"3521027904803262\"",
+      "id": "cgpjae1p6lijabb468r3gb9k69h34bb1clim8b9mc4pj0cb46ko38phn70_20261204T160000Z",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=Y2dwamFlMXA2bGlqYWJiNDY4cjNnYjlrNjloMzRiYjFjbGltOGI5bWM0cGowY2I0NmtvMzhwaG43MF8yMDI2MTIwNFQxNjAwMDBaIGNiZWNrZXIucHdAZ29vZ2xlbWFpbC5jb20",
+      "created": "2025-10-15T07:39:12.000Z",
+      "updated": "2025-10-15T07:39:12.401Z",
+      "summary": "Weihnachtsfeier WAGO",
+      "creator": {
+        "email": "cbecker.pw@googlemail.com",
+        "self": true
+      },
+      "organizer": {
+        "email": "cbecker.pw@googlemail.com",
+        "self": true
+      },
+      "start": {
+        "dateTime": "2026-12-04T17:00:00+01:00",
+        "timeZone": "Europe/Berlin"
+      },
+      "end": {
+        "dateTime": "2026-12-04T18:00:00+01:00",
+        "timeZone": "Europe/Berlin"
+      },
+      "recurringEventId": "cgpjae1p6lijabb468r3gb9k69h34bb1clim8b9mc4pj0cb46ko38phn70",
+      "originalStartTime": {
+        "dateTime": "2026-12-04T17:00:00+01:00",
+        "timeZone": "Europe/Berlin"
+      },
+      "iCalUID": "cgpjae1p6lijabb468r3gb9k69h34bb1clim8b9mc4pj0cb46ko38phn70@google.com",
+      "sequence": 0,
+      "reminders": {
+        "useDefault": true
+      },
+      "eventType": "default"
+    },
+    {
+      "kind": "calendar#event",
+      "etag": "\"3324243136590000\"",
+      "id": "clgjce1jcks68b9i6th3eb9k6csj8b9p70qm2b9n6dgm8pb671i38cj6co_20261207T191500Z",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=Y2xnamNlMWpja3M2OGI5aTZ0aDNlYjlrNmNzajhiOXA3MHFtMmI5bjZkZ204cGI2NzFpMzhjajZjb18yMDI2MTIwN1QxOTE1MDBaIGNiZWNrZXIucHdAZ29vZ2xlbWFpbC5jb20",
+      "created": "2022-09-02T12:26:08.000Z",
+      "updated": "2022-09-02T12:26:08.295Z",
+      "summary": "Papiere/Hausarbeit",
+      "creator": {
+        "email": "cbecker.pw@googlemail.com",
+        "self": true
+      },
+      "organizer": {
+        "email": "cbecker.pw@googlemail.com",
+        "self": true
+      },
+      "start": {
+        "dateTime": "2026-12-07T20:15:00+01:00",
+        "timeZone": "Europe/Berlin"
+      },
+      "end": {
+        "dateTime": "2026-12-07T22:00:00+01:00",
+        "timeZone": "Europe/Berlin"
+      },
+      "recurringEventId": "clgjce1jcks68b9i6th3eb9k6csj8b9p70qm2b9n6dgm8pb671i38cj6co",
+      "originalStartTime": {
+        "dateTime": "2026-12-07T20:15:00+01:00",
+        "timeZone": "Europe/Berlin"
+      },
+      "iCalUID": "clgjce1jcks68b9i6th3eb9k6csj8b9p70qm2b9n6dgm8pb671i38cj6co@google.com",
+      "sequence": 0,
+      "reminders": {
+        "useDefault": true
+      },
+      "eventType": "default"
+    },
+    {
+      "kind": "calendar#event",
+      "etag": "\"3580159312207678\"",
+      "id": "n4a6vmq83mtf5g6d5rc06d3q76_20261211",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=bjRhNnZtcTgzbXRmNWc2ZDVyYzA2ZDNxNzZfMjAyNjEyMTEgY2JlY2tlci5wd0Bnb29nbGVtYWlsLmNvbQ",
+      "created": "2023-11-07T07:54:14.000Z",
+      "updated": "2026-09-22T12:20:56.103Z",
+      "summary": "HO",
+      "creator": {
+        "email": "cbecker.pw@googlemail.com",
+        "self": true
+      },
+      "organizer": {
+        "email": "cbecker.pw@googlemail.com",
+        "self": true
+      },
+      "start": {
+        "date": "2026-12-11"
+      },
+      "end": {
+        "date": "2026-12-12"
+      },
+      "recurringEventId": "n4a6vmq83mtf5g6d5rc06d3q76",
+      "originalStartTime": {
+        "date": "2026-12-11"
+      },
+      "transparency": "transparent",
+      "iCalUID": "n4a6vmq83mtf5g6d5rc06d3q76@google.com",
+      "sequence": 3,
+      "reminders": {
+        "useDefault": false,
+        "overrides": [
+          {
+            "method": "email",
+            "minutes": 430
+          },
+          {
+            "method": "popup",
+            "minutes": 10
+          }
+        ]
+      },
+      "eventType": "default"
+    },
+    {
+      "kind": "calendar#event",
+      "etag": "\"3070821093916000\"",
+      "id": "6pgj2ob3cli32b9lc5j3gb9kckq3ibb1chhm4bb5cdj3cohi60s6ccpico_20261212T110000Z",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=NnBnajJvYjNjbGkzMmI5bGM1ajNnYjlrY2txM2liYjFjaGhtNGJiNWNkajNjb2hpNjBzNmNjcGljb18yMDI2MTIxMlQxMTAwMDBaIGNiZWNrZXIucHdAZ29vZ2xlbWFpbC5jb20",
+      "created": "2018-08-21T09:37:04.000Z",
+      "updated": "2018-09-03T12:14:29.432Z",
+      "summary": "1Monatiges Susi 12.08.2018",
+      "creator": {
+        "email": "cbecker.pw@googlemail.com",
+        "displayName": "Christian Becker",
+        "self": true
+      },
+      "organizer": {
+        "email": "cbecker.pw@googlemail.com",
+        "displayName": "Christian Becker",
+        "self": true
+      },
+      "start": {
+        "dateTime": "2026-12-12T12:00:00+01:00",
+        "timeZone": "Europe/Berlin"
+      },
+      "end": {
+        "dateTime": "2026-12-12T13:00:00+01:00",
+        "timeZone": "Europe/Berlin"
+      },
+      "recurringEventId": "6pgj2ob3cli32b9lc5j3gb9kckq3ibb1chhm4bb5cdj3cohi60s6ccpico",
+      "originalStartTime": {
+        "dateTime": "2026-12-12T12:00:00+01:00",
+        "timeZone": "Europe/Berlin"
+      },
+      "iCalUID": "6pgj2ob3cli32b9lc5j3gb9kckq3ibb1chhm4bb5cdj3cohi60s6ccpico@google.com",
+      "sequence": 2,
+      "extendedProperties": {
+        "private": {
+          "eventAttendeeList": "[]"
+        }
+      },
+      "reminders": {
+        "useDefault": false,
+        "overrides": [
+          {
+            "method": "email",
+            "minutes": 10
+          },
+          {
+            "method": "popup",
+            "minutes": 10
+          }
+        ]
+      },
+      "eventType": "default"
+    },
+    {
+      "kind": "calendar#event",
+      "etag": "\"3324243136590000\"",
+      "id": "clgjce1jcks68b9i6th3eb9k6csj8b9p70qm2b9n6dgm8pb671i38cj6co_20261214T191500Z",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=Y2xnamNlMWpja3M2OGI5aTZ0aDNlYjlrNmNzajhiOXA3MHFtMmI5bjZkZ204cGI2NzFpMzhjajZjb18yMDI2MTIxNFQxOTE1MDBaIGNiZWNrZXIucHdAZ29vZ2xlbWFpbC5jb20",
+      "created": "2022-09-02T12:26:08.000Z",
+      "updated": "2022-09-02T12:26:08.295Z",
+      "summary": "Papiere/Hausarbeit",
+      "creator": {
+        "email": "cbecker.pw@googlemail.com",
+        "self": true
+      },
+      "organizer": {
+        "email": "cbecker.pw@googlemail.com",
+        "self": true
+      },
+      "start": {
+        "dateTime": "2026-12-14T20:15:00+01:00",
+        "timeZone": "Europe/Berlin"
+      },
+      "end": {
+        "dateTime": "2026-12-14T22:00:00+01:00",
+        "timeZone": "Europe/Berlin"
+      },
+      "recurringEventId": "clgjce1jcks68b9i6th3eb9k6csj8b9p70qm2b9n6dgm8pb671i38cj6co",
+      "originalStartTime": {
+        "dateTime": "2026-12-14T20:15:00+01:00",
+        "timeZone": "Europe/Berlin"
+      },
+      "iCalUID": "clgjce1jcks68b9i6th3eb9k6csj8b9p70qm2b9n6dgm8pb671i38cj6co@google.com",
+      "sequence": 0,
+      "reminders": {
+        "useDefault": true
+      },
+      "eventType": "default"
+    },
+    {
+      "kind": "calendar#event",
+      "etag": "\"3580159312207678\"",
+      "id": "n4a6vmq83mtf5g6d5rc06d3q76_20261218",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=bjRhNnZtcTgzbXRmNWc2ZDVyYzA2ZDNxNzZfMjAyNjEyMTggY2JlY2tlci5wd0Bnb29nbGVtYWlsLmNvbQ",
+      "created": "2023-11-07T07:54:14.000Z",
+      "updated": "2026-09-22T12:20:56.103Z",
+      "summary": "HO",
+      "creator": {
+        "email": "cbecker.pw@googlemail.com",
+        "self": true
+      },
+      "organizer": {
+        "email": "cbecker.pw@googlemail.com",
+        "self": true
+      },
+      "start": {
+        "date": "2026-12-18"
+      },
+      "end": {
+        "date": "2026-12-19"
+      },
+      "recurringEventId": "n4a6vmq83mtf5g6d5rc06d3q76",
+      "originalStartTime": {
+        "date": "2026-12-18"
+      },
+      "transparency": "transparent",
+      "iCalUID": "n4a6vmq83mtf5g6d5rc06d3q76@google.com",
+      "sequence": 3,
+      "reminders": {
+        "useDefault": false,
+        "overrides": [
+          {
+            "method": "email",
+            "minutes": 430
+          },
+          {
+            "method": "popup",
+            "minutes": 10
+          }
+        ]
+      },
+      "eventType": "default"
+    },
+    {
+      "kind": "calendar#event",
+      "etag": "\"3324243136590000\"",
+      "id": "clgjce1jcks68b9i6th3eb9k6csj8b9p70qm2b9n6dgm8pb671i38cj6co_20261221T191500Z",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=Y2xnamNlMWpja3M2OGI5aTZ0aDNlYjlrNmNzajhiOXA3MHFtMmI5bjZkZ204cGI2NzFpMzhjajZjb18yMDI2MTIyMVQxOTE1MDBaIGNiZWNrZXIucHdAZ29vZ2xlbWFpbC5jb20",
+      "created": "2022-09-02T12:26:08.000Z",
+      "updated": "2022-09-02T12:26:08.295Z",
+      "summary": "Papiere/Hausarbeit",
+      "creator": {
+        "email": "cbecker.pw@googlemail.com",
+        "self": true
+      },
+      "organizer": {
+        "email": "cbecker.pw@googlemail.com",
+        "self": true
+      },
+      "start": {
+        "dateTime": "2026-12-21T20:15:00+01:00",
+        "timeZone": "Europe/Berlin"
+      },
+      "end": {
+        "dateTime": "2026-12-21T22:00:00+01:00",
+        "timeZone": "Europe/Berlin"
+      },
+      "recurringEventId": "clgjce1jcks68b9i6th3eb9k6csj8b9p70qm2b9n6dgm8pb671i38cj6co",
+      "originalStartTime": {
+        "dateTime": "2026-12-21T20:15:00+01:00",
+        "timeZone": "Europe/Berlin"
+      },
+      "iCalUID": "clgjce1jcks68b9i6th3eb9k6csj8b9p70qm2b9n6dgm8pb671i38cj6co@google.com",
+      "sequence": 0,
+      "reminders": {
+        "useDefault": true
+      },
+      "eventType": "default"
+    },
+    {
+      "kind": "calendar#event",
+      "etag": "\"3531930259348318\"",
+      "id": "6hijgdj269ijgb9g60pj4b9k74q3ib9o71ijcbb4cko62ob6c9hj6d9ic8",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=NmhpamdkajI2OWlqZ2I5ZzYwcGo0YjlrNzRxM2liOW83MWlqY2JiNGNrbzYyb2I2YzloajZkOWljOCBjYmVja2VyLnB3QGdvb2dsZW1haWwuY29t",
+      "created": "2025-12-17T09:52:09.000Z",
+      "updated": "2025-12-17T09:52:09.674Z",
+      "summary": "Urlaub",
+      "creator": {
+        "email": "cbecker.pw@googlemail.com",
+        "self": true
+      },
+      "organizer": {
+        "email": "cbecker.pw@googlemail.com",
+        "self": true
+      },
+      "start": {
+        "date": "2026-12-23"
+      },
+      "end": {
+        "date": "2027-01-01"
+      },
+      "transparency": "transparent",
+      "iCalUID": "6hijgdj269ijgb9g60pj4b9k74q3ib9o71ijcbb4cko62ob6c9hj6d9ic8@google.com",
+      "sequence": 0,
+      "reminders": {
+        "useDefault": false,
+        "overrides": [
+          {
+            "method": "email",
+            "minutes": 430
+          },
+          {
+            "method": "popup",
+            "minutes": 10
+          }
+        ]
+      },
+      "eventType": "default"
+    },
+    {
+      "kind": "calendar#event",
+      "etag": "\"3580159312207678\"",
+      "id": "n4a6vmq83mtf5g6d5rc06d3q76_20261225",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=bjRhNnZtcTgzbXRmNWc2ZDVyYzA2ZDNxNzZfMjAyNjEyMjUgY2JlY2tlci5wd0Bnb29nbGVtYWlsLmNvbQ",
+      "created": "2023-11-07T07:54:14.000Z",
+      "updated": "2026-09-22T12:20:56.103Z",
+      "summary": "HO",
+      "creator": {
+        "email": "cbecker.pw@googlemail.com",
+        "self": true
+      },
+      "organizer": {
+        "email": "cbecker.pw@googlemail.com",
+        "self": true
+      },
+      "start": {
+        "date": "2026-12-25"
+      },
+      "end": {
+        "date": "2026-12-26"
+      },
+      "recurringEventId": "n4a6vmq83mtf5g6d5rc06d3q76",
+      "originalStartTime": {
+        "date": "2026-12-25"
+      },
+      "transparency": "transparent",
+      "iCalUID": "n4a6vmq83mtf5g6d5rc06d3q76@google.com",
+      "sequence": 3,
+      "reminders": {
+        "useDefault": false,
+        "overrides": [
+          {
+            "method": "email",
+            "minutes": 430
+          },
+          {
+            "method": "popup",
+            "minutes": 10
+          }
+        ]
+      },
+      "eventType": "default"
+    },
+    {
+      "kind": "calendar#event",
+      "etag": "\"3324243136590000\"",
+      "id": "clgjce1jcks68b9i6th3eb9k6csj8b9p70qm2b9n6dgm8pb671i38cj6co_20261228T191500Z",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=Y2xnamNlMWpja3M2OGI5aTZ0aDNlYjlrNmNzajhiOXA3MHFtMmI5bjZkZ204cGI2NzFpMzhjajZjb18yMDI2MTIyOFQxOTE1MDBaIGNiZWNrZXIucHdAZ29vZ2xlbWFpbC5jb20",
+      "created": "2022-09-02T12:26:08.000Z",
+      "updated": "2022-09-02T12:26:08.295Z",
+      "summary": "Papiere/Hausarbeit",
+      "creator": {
+        "email": "cbecker.pw@googlemail.com",
+        "self": true
+      },
+      "organizer": {
+        "email": "cbecker.pw@googlemail.com",
+        "self": true
+      },
+      "start": {
+        "dateTime": "2026-12-28T20:15:00+01:00",
+        "timeZone": "Europe/Berlin"
+      },
+      "end": {
+        "dateTime": "2026-12-28T22:00:00+01:00",
+        "timeZone": "Europe/Berlin"
+      },
+      "recurringEventId": "clgjce1jcks68b9i6th3eb9k6csj8b9p70qm2b9n6dgm8pb671i38cj6co",
+      "originalStartTime": {
+        "dateTime": "2026-12-28T20:15:00+01:00",
+        "timeZone": "Europe/Berlin"
+      },
+      "iCalUID": "clgjce1jcks68b9i6th3eb9k6csj8b9p70qm2b9n6dgm8pb671i38cj6co@google.com",
+      "sequence": 0,
+      "reminders": {
+        "useDefault": true
+      },
+      "eventType": "default"
+    },
+    {
+      "kind": "calendar#event",
+      "etag": "\"3580159312207678\"",
+      "id": "n4a6vmq83mtf5g6d5rc06d3q76_20270101",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=bjRhNnZtcTgzbXRmNWc2ZDVyYzA2ZDNxNzZfMjAyNzAxMDEgY2JlY2tlci5wd0Bnb29nbGVtYWlsLmNvbQ",
+      "created": "2023-11-07T07:54:14.000Z",
+      "updated": "2026-09-22T12:20:56.103Z",
+      "summary": "HO",
+      "creator": {
+        "email": "cbecker.pw@googlemail.com",
+        "self": true
+      },
+      "organizer": {
+        "email": "cbecker.pw@googlemail.com",
+        "self": true
+      },
+      "start": {
+        "date": "2027-01-01"
+      },
+      "end": {
+        "date": "2027-01-02"
+      },
+      "recurringEventId": "n4a6vmq83mtf5g6d5rc06d3q76",
+      "originalStartTime": {
+        "date": "2027-01-01"
+      },
+      "transparency": "transparent",
+      "iCalUID": "n4a6vmq83mtf5g6d5rc06d3q76@google.com",
+      "sequence": 3,
+      "reminders": {
+        "useDefault": false,
+        "overrides": [
+          {
+            "method": "email",
+            "minutes": 430
+          },
+          {
+            "method": "popup",
+            "minutes": 10
+          }
+        ]
+      },
+      "eventType": "default"
+    },
+    {
+      "kind": "calendar#event",
+      "etag": "\"3324243136590000\"",
+      "id": "clgjce1jcks68b9i6th3eb9k6csj8b9p70qm2b9n6dgm8pb671i38cj6co_20270104T191500Z",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=Y2xnamNlMWpja3M2OGI5aTZ0aDNlYjlrNmNzajhiOXA3MHFtMmI5bjZkZ204cGI2NzFpMzhjajZjb18yMDI3MDEwNFQxOTE1MDBaIGNiZWNrZXIucHdAZ29vZ2xlbWFpbC5jb20",
+      "created": "2022-09-02T12:26:08.000Z",
+      "updated": "2022-09-02T12:26:08.295Z",
+      "summary": "Papiere/Hausarbeit",
+      "creator": {
+        "email": "cbecker.pw@googlemail.com",
+        "self": true
+      },
+      "organizer": {
+        "email": "cbecker.pw@googlemail.com",
+        "self": true
+      },
+      "start": {
+        "dateTime": "2027-01-04T20:15:00+01:00",
+        "timeZone": "Europe/Berlin"
+      },
+      "end": {
+        "dateTime": "2027-01-04T22:00:00+01:00",
+        "timeZone": "Europe/Berlin"
+      },
+      "recurringEventId": "clgjce1jcks68b9i6th3eb9k6csj8b9p70qm2b9n6dgm8pb671i38cj6co",
+      "originalStartTime": {
+        "dateTime": "2027-01-04T20:15:00+01:00",
+        "timeZone": "Europe/Berlin"
+      },
+      "iCalUID": "clgjce1jcks68b9i6th3eb9k6csj8b9p70qm2b9n6dgm8pb671i38cj6co@google.com",
+      "sequence": 0,
+      "reminders": {
+        "useDefault": true
+      },
+      "eventType": "default"
+    },
+    {
+      "kind": "calendar#event",
+      "etag": "\"3580159312207678\"",
+      "id": "n4a6vmq83mtf5g6d5rc06d3q76_20270108",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=bjRhNnZtcTgzbXRmNWc2ZDVyYzA2ZDNxNzZfMjAyNzAxMDggY2JlY2tlci5wd0Bnb29nbGVtYWlsLmNvbQ",
+      "created": "2023-11-07T07:54:14.000Z",
+      "updated": "2026-09-22T12:20:56.103Z",
+      "summary": "HO",
+      "creator": {
+        "email": "cbecker.pw@googlemail.com",
+        "self": true
+      },
+      "organizer": {
+        "email": "cbecker.pw@googlemail.com",
+        "self": true
+      },
+      "start": {
+        "date": "2027-01-08"
+      },
+      "end": {
+        "date": "2027-01-09"
+      },
+      "recurringEventId": "n4a6vmq83mtf5g6d5rc06d3q76",
+      "originalStartTime": {
+        "date": "2027-01-08"
+      },
+      "transparency": "transparent",
+      "iCalUID": "n4a6vmq83mtf5g6d5rc06d3q76@google.com",
+      "sequence": 3,
+      "reminders": {
+        "useDefault": false,
+        "overrides": [
+          {
+            "method": "email",
+            "minutes": 430
+          },
+          {
+            "method": "popup",
+            "minutes": 10
+          }
+        ]
+      },
+      "eventType": "default"
+    },
+    {
+      "kind": "calendar#event",
+      "etag": "\"3324243136590000\"",
+      "id": "clgjce1jcks68b9i6th3eb9k6csj8b9p70qm2b9n6dgm8pb671i38cj6co_20270111T191500Z",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=Y2xnamNlMWpja3M2OGI5aTZ0aDNlYjlrNmNzajhiOXA3MHFtMmI5bjZkZ204cGI2NzFpMzhjajZjb18yMDI3MDExMVQxOTE1MDBaIGNiZWNrZXIucHdAZ29vZ2xlbWFpbC5jb20",
+      "created": "2022-09-02T12:26:08.000Z",
+      "updated": "2022-09-02T12:26:08.295Z",
+      "summary": "Papiere/Hausarbeit",
+      "creator": {
+        "email": "cbecker.pw@googlemail.com",
+        "self": true
+      },
+      "organizer": {
+        "email": "cbecker.pw@googlemail.com",
+        "self": true
+      },
+      "start": {
+        "dateTime": "2027-01-11T20:15:00+01:00",
+        "timeZone": "Europe/Berlin"
+      },
+      "end": {
+        "dateTime": "2027-01-11T22:00:00+01:00",
+        "timeZone": "Europe/Berlin"
+      },
+      "recurringEventId": "clgjce1jcks68b9i6th3eb9k6csj8b9p70qm2b9n6dgm8pb671i38cj6co",
+      "originalStartTime": {
+        "dateTime": "2027-01-11T20:15:00+01:00",
+        "timeZone": "Europe/Berlin"
+      },
+      "iCalUID": "clgjce1jcks68b9i6th3eb9k6csj8b9p70qm2b9n6dgm8pb671i38cj6co@google.com",
+      "sequence": 0,
+      "reminders": {
+        "useDefault": true
+      },
+      "eventType": "default"
+    },
+    {
+      "kind": "calendar#event",
+      "etag": "\"3070821093916000\"",
+      "id": "6pgj2ob3cli32b9lc5j3gb9kckq3ibb1chhm4bb5cdj3cohi60s6ccpico_20270112T110000Z",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=NnBnajJvYjNjbGkzMmI5bGM1ajNnYjlrY2txM2liYjFjaGhtNGJiNWNkajNjb2hpNjBzNmNjcGljb18yMDI3MDExMlQxMTAwMDBaIGNiZWNrZXIucHdAZ29vZ2xlbWFpbC5jb20",
+      "created": "2018-08-21T09:37:04.000Z",
+      "updated": "2018-09-03T12:14:29.432Z",
+      "summary": "1Monatiges Susi 12.08.2018",
+      "creator": {
+        "email": "cbecker.pw@googlemail.com",
+        "displayName": "Christian Becker",
+        "self": true
+      },
+      "organizer": {
+        "email": "cbecker.pw@googlemail.com",
+        "displayName": "Christian Becker",
+        "self": true
+      },
+      "start": {
+        "dateTime": "2027-01-12T12:00:00+01:00",
+        "timeZone": "Europe/Berlin"
+      },
+      "end": {
+        "dateTime": "2027-01-12T13:00:00+01:00",
+        "timeZone": "Europe/Berlin"
+      },
+      "recurringEventId": "6pgj2ob3cli32b9lc5j3gb9kckq3ibb1chhm4bb5cdj3cohi60s6ccpico",
+      "originalStartTime": {
+        "dateTime": "2027-01-12T12:00:00+01:00",
+        "timeZone": "Europe/Berlin"
+      },
+      "iCalUID": "6pgj2ob3cli32b9lc5j3gb9kckq3ibb1chhm4bb5cdj3cohi60s6ccpico@google.com",
+      "sequence": 2,
+      "extendedProperties": {
+        "private": {
+          "eventAttendeeList": "[]"
+        }
+      },
+      "reminders": {
+        "useDefault": false,
+        "overrides": [
+          {
+            "method": "email",
+            "minutes": 10
+          },
+          {
+            "method": "popup",
+            "minutes": 10
+          }
+        ]
+      },
+      "eventType": "default"
+    },
+    {
+      "kind": "calendar#event",
+      "etag": "\"3580159312207678\"",
+      "id": "n4a6vmq83mtf5g6d5rc06d3q76_20270115",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=bjRhNnZtcTgzbXRmNWc2ZDVyYzA2ZDNxNzZfMjAyNzAxMTUgY2JlY2tlci5wd0Bnb29nbGVtYWlsLmNvbQ",
+      "created": "2023-11-07T07:54:14.000Z",
+      "updated": "2026-09-22T12:20:56.103Z",
+      "summary": "HO",
+      "creator": {
+        "email": "cbecker.pw@googlemail.com",
+        "self": true
+      },
+      "organizer": {
+        "email": "cbecker.pw@googlemail.com",
+        "self": true
+      },
+      "start": {
+        "date": "2027-01-15"
+      },
+      "end": {
+        "date": "2027-01-16"
+      },
+      "recurringEventId": "n4a6vmq83mtf5g6d5rc06d3q76",
+      "originalStartTime": {
+        "date": "2027-01-15"
+      },
+      "transparency": "transparent",
+      "iCalUID": "n4a6vmq83mtf5g6d5rc06d3q76@google.com",
+      "sequence": 3,
+      "reminders": {
+        "useDefault": false,
+        "overrides": [
+          {
+            "method": "email",
+            "minutes": 430
+          },
+          {
+            "method": "popup",
+            "minutes": 10
+          }
+        ]
+      },
+      "eventType": "default"
+    },
+    {
+      "kind": "calendar#event",
+      "etag": "\"3324243136590000\"",
+      "id": "clgjce1jcks68b9i6th3eb9k6csj8b9p70qm2b9n6dgm8pb671i38cj6co_20270118T191500Z",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=Y2xnamNlMWpja3M2OGI5aTZ0aDNlYjlrNmNzajhiOXA3MHFtMmI5bjZkZ204cGI2NzFpMzhjajZjb18yMDI3MDExOFQxOTE1MDBaIGNiZWNrZXIucHdAZ29vZ2xlbWFpbC5jb20",
+      "created": "2022-09-02T12:26:08.000Z",
+      "updated": "2022-09-02T12:26:08.295Z",
+      "summary": "Papiere/Hausarbeit",
+      "creator": {
+        "email": "cbecker.pw@googlemail.com",
+        "self": true
+      },
+      "organizer": {
+        "email": "cbecker.pw@googlemail.com",
+        "self": true
+      },
+      "start": {
+        "dateTime": "2027-01-18T20:15:00+01:00",
+        "timeZone": "Europe/Berlin"
+      },
+      "end": {
+        "dateTime": "2027-01-18T22:00:00+01:00",
+        "timeZone": "Europe/Berlin"
+      },
+      "recurringEventId": "clgjce1jcks68b9i6th3eb9k6csj8b9p70qm2b9n6dgm8pb671i38cj6co",
+      "originalStartTime": {
+        "dateTime": "2027-01-18T20:15:00+01:00",
+        "timeZone": "Europe/Berlin"
+      },
+      "iCalUID": "clgjce1jcks68b9i6th3eb9k6csj8b9p70qm2b9n6dgm8pb671i38cj6co@google.com",
+      "sequence": 0,
+      "reminders": {
+        "useDefault": true
+      },
+      "eventType": "default"
+    },
+    {
+      "kind": "calendar#event",
+      "etag": "\"3580159312207678\"",
+      "id": "n4a6vmq83mtf5g6d5rc06d3q76_20270122",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=bjRhNnZtcTgzbXRmNWc2ZDVyYzA2ZDNxNzZfMjAyNzAxMjIgY2JlY2tlci5wd0Bnb29nbGVtYWlsLmNvbQ",
+      "created": "2023-11-07T07:54:14.000Z",
+      "updated": "2026-09-22T12:20:56.103Z",
+      "summary": "HO",
+      "creator": {
+        "email": "cbecker.pw@googlemail.com",
+        "self": true
+      },
+      "organizer": {
+        "email": "cbecker.pw@googlemail.com",
+        "self": true
+      },
+      "start": {
+        "date": "2027-01-22"
+      },
+      "end": {
+        "date": "2027-01-23"
+      },
+      "recurringEventId": "n4a6vmq83mtf5g6d5rc06d3q76",
+      "originalStartTime": {
+        "date": "2027-01-22"
+      },
+      "transparency": "transparent",
+      "iCalUID": "n4a6vmq83mtf5g6d5rc06d3q76@google.com",
+      "sequence": 3,
+      "reminders": {
+        "useDefault": false,
+        "overrides": [
+          {
+            "method": "email",
+            "minutes": 430
+          },
+          {
+            "method": "popup",
+            "minutes": 10
+          }
+        ]
+      },
+      "eventType": "default"
+    },
+    {
+      "kind": "calendar#event",
+      "etag": "\"3324243136590000\"",
+      "id": "clgjce1jcks68b9i6th3eb9k6csj8b9p70qm2b9n6dgm8pb671i38cj6co_20270125T191500Z",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=Y2xnamNlMWpja3M2OGI5aTZ0aDNlYjlrNmNzajhiOXA3MHFtMmI5bjZkZ204cGI2NzFpMzhjajZjb18yMDI3MDEyNVQxOTE1MDBaIGNiZWNrZXIucHdAZ29vZ2xlbWFpbC5jb20",
+      "created": "2022-09-02T12:26:08.000Z",
+      "updated": "2022-09-02T12:26:08.295Z",
+      "summary": "Papiere/Hausarbeit",
+      "creator": {
+        "email": "cbecker.pw@googlemail.com",
+        "self": true
+      },
+      "organizer": {
+        "email": "cbecker.pw@googlemail.com",
+        "self": true
+      },
+      "start": {
+        "dateTime": "2027-01-25T20:15:00+01:00",
+        "timeZone": "Europe/Berlin"
+      },
+      "end": {
+        "dateTime": "2027-01-25T22:00:00+01:00",
+        "timeZone": "Europe/Berlin"
+      },
+      "recurringEventId": "clgjce1jcks68b9i6th3eb9k6csj8b9p70qm2b9n6dgm8pb671i38cj6co",
+      "originalStartTime": {
+        "dateTime": "2027-01-25T20:15:00+01:00",
+        "timeZone": "Europe/Berlin"
+      },
+      "iCalUID": "clgjce1jcks68b9i6th3eb9k6csj8b9p70qm2b9n6dgm8pb671i38cj6co@google.com",
+      "sequence": 0,
+      "reminders": {
+        "useDefault": true
+      },
+      "eventType": "default"
+    },
+    {
+      "kind": "calendar#event",
+      "etag": "\"3580159312207678\"",
+      "id": "n4a6vmq83mtf5g6d5rc06d3q76_20270129",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=bjRhNnZtcTgzbXRmNWc2ZDVyYzA2ZDNxNzZfMjAyNzAxMjkgY2JlY2tlci5wd0Bnb29nbGVtYWlsLmNvbQ",
+      "created": "2023-11-07T07:54:14.000Z",
+      "updated": "2026-09-22T12:20:56.103Z",
+      "summary": "HO",
+      "creator": {
+        "email": "cbecker.pw@googlemail.com",
+        "self": true
+      },
+      "organizer": {
+        "email": "cbecker.pw@googlemail.com",
+        "self": true
+      },
+      "start": {
+        "date": "2027-01-29"
+      },
+      "end": {
+        "date": "2027-01-30"
+      },
+      "recurringEventId": "n4a6vmq83mtf5g6d5rc06d3q76",
+      "originalStartTime": {
+        "date": "2027-01-29"
+      },
+      "transparency": "transparent",
+      "iCalUID": "n4a6vmq83mtf5g6d5rc06d3q76@google.com",
+      "sequence": 3,
+      "reminders": {
+        "useDefault": false,
+        "overrides": [
+          {
+            "method": "email",
+            "minutes": 430
+          },
+          {
+            "method": "popup",
+            "minutes": 10
+          }
+        ]
+      },
+      "eventType": "default"
+    },
+    {
+      "kind": "calendar#event",
+      "etag": "\"3324243136590000\"",
+      "id": "clgjce1jcks68b9i6th3eb9k6csj8b9p70qm2b9n6dgm8pb671i38cj6co_20270201T191500Z",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=Y2xnamNlMWpja3M2OGI5aTZ0aDNlYjlrNmNzajhiOXA3MHFtMmI5bjZkZ204cGI2NzFpMzhjajZjb18yMDI3MDIwMVQxOTE1MDBaIGNiZWNrZXIucHdAZ29vZ2xlbWFpbC5jb20",
+      "created": "2022-09-02T12:26:08.000Z",
+      "updated": "2022-09-02T12:26:08.295Z",
+      "summary": "Papiere/Hausarbeit",
+      "creator": {
+        "email": "cbecker.pw@googlemail.com",
+        "self": true
+      },
+      "organizer": {
+        "email": "cbecker.pw@googlemail.com",
+        "self": true
+      },
+      "start": {
+        "dateTime": "2027-02-01T20:15:00+01:00",
+        "timeZone": "Europe/Berlin"
+      },
+      "end": {
+        "dateTime": "2027-02-01T22:00:00+01:00",
+        "timeZone": "Europe/Berlin"
+      },
+      "recurringEventId": "clgjce1jcks68b9i6th3eb9k6csj8b9p70qm2b9n6dgm8pb671i38cj6co",
+      "originalStartTime": {
+        "dateTime": "2027-02-01T20:15:00+01:00",
+        "timeZone": "Europe/Berlin"
+      },
+      "iCalUID": "clgjce1jcks68b9i6th3eb9k6csj8b9p70qm2b9n6dgm8pb671i38cj6co@google.com",
+      "sequence": 0,
+      "reminders": {
+        "useDefault": true
+      },
+      "eventType": "default"
+    },
+    {
+      "kind": "calendar#event",
+      "etag": "\"3580159312207678\"",
+      "id": "n4a6vmq83mtf5g6d5rc06d3q76_20270205",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=bjRhNnZtcTgzbXRmNWc2ZDVyYzA2ZDNxNzZfMjAyNzAyMDUgY2JlY2tlci5wd0Bnb29nbGVtYWlsLmNvbQ",
+      "created": "2023-11-07T07:54:14.000Z",
+      "updated": "2026-09-22T12:20:56.103Z",
+      "summary": "HO",
+      "creator": {
+        "email": "cbecker.pw@googlemail.com",
+        "self": true
+      },
+      "organizer": {
+        "email": "cbecker.pw@googlemail.com",
+        "self": true
+      },
+      "start": {
+        "date": "2027-02-05"
+      },
+      "end": {
+        "date": "2027-02-06"
+      },
+      "recurringEventId": "n4a6vmq83mtf5g6d5rc06d3q76",
+      "originalStartTime": {
+        "date": "2027-02-05"
+      },
+      "transparency": "transparent",
+      "iCalUID": "n4a6vmq83mtf5g6d5rc06d3q76@google.com",
+      "sequence": 3,
+      "reminders": {
+        "useDefault": false,
+        "overrides": [
+          {
+            "method": "email",
+            "minutes": 430
+          },
+          {
+            "method": "popup",
+            "minutes": 10
+          }
+        ]
+      },
+      "eventType": "default"
+    },
+    {
+      "kind": "calendar#event",
+      "etag": "\"3324243136590000\"",
+      "id": "clgjce1jcks68b9i6th3eb9k6csj8b9p70qm2b9n6dgm8pb671i38cj6co_20270208T191500Z",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=Y2xnamNlMWpja3M2OGI5aTZ0aDNlYjlrNmNzajhiOXA3MHFtMmI5bjZkZ204cGI2NzFpMzhjajZjb18yMDI3MDIwOFQxOTE1MDBaIGNiZWNrZXIucHdAZ29vZ2xlbWFpbC5jb20",
+      "created": "2022-09-02T12:26:08.000Z",
+      "updated": "2022-09-02T12:26:08.295Z",
+      "summary": "Papiere/Hausarbeit",
+      "creator": {
+        "email": "cbecker.pw@googlemail.com",
+        "self": true
+      },
+      "organizer": {
+        "email": "cbecker.pw@googlemail.com",
+        "self": true
+      },
+      "start": {
+        "dateTime": "2027-02-08T20:15:00+01:00",
+        "timeZone": "Europe/Berlin"
+      },
+      "end": {
+        "dateTime": "2027-02-08T22:00:00+01:00",
+        "timeZone": "Europe/Berlin"
+      },
+      "recurringEventId": "clgjce1jcks68b9i6th3eb9k6csj8b9p70qm2b9n6dgm8pb671i38cj6co",
+      "originalStartTime": {
+        "dateTime": "2027-02-08T20:15:00+01:00",
+        "timeZone": "Europe/Berlin"
+      },
+      "iCalUID": "clgjce1jcks68b9i6th3eb9k6csj8b9p70qm2b9n6dgm8pb671i38cj6co@google.com",
+      "sequence": 0,
+      "reminders": {
+        "useDefault": true
+      },
+      "eventType": "default"
+    },
+    {
+      "kind": "calendar#event",
+      "etag": "\"3580159312207678\"",
+      "id": "n4a6vmq83mtf5g6d5rc06d3q76_20270212",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=bjRhNnZtcTgzbXRmNWc2ZDVyYzA2ZDNxNzZfMjAyNzAyMTIgY2JlY2tlci5wd0Bnb29nbGVtYWlsLmNvbQ",
+      "created": "2023-11-07T07:54:14.000Z",
+      "updated": "2026-09-22T12:20:56.103Z",
+      "summary": "HO",
+      "creator": {
+        "email": "cbecker.pw@googlemail.com",
+        "self": true
+      },
+      "organizer": {
+        "email": "cbecker.pw@googlemail.com",
+        "self": true
+      },
+      "start": {
+        "date": "2027-02-12"
+      },
+      "end": {
+        "date": "2027-02-13"
+      },
+      "recurringEventId": "n4a6vmq83mtf5g6d5rc06d3q76",
+      "originalStartTime": {
+        "date": "2027-02-12"
+      },
+      "transparency": "transparent",
+      "iCalUID": "n4a6vmq83mtf5g6d5rc06d3q76@google.com",
+      "sequence": 3,
+      "reminders": {
+        "useDefault": false,
+        "overrides": [
+          {
+            "method": "email",
+            "minutes": 430
+          },
+          {
+            "method": "popup",
+            "minutes": 10
+          }
+        ]
+      },
+      "eventType": "default"
+    },
+    {
+      "kind": "calendar#event",
+      "etag": "\"3070821093916000\"",
+      "id": "6pgj2ob3cli32b9lc5j3gb9kckq3ibb1chhm4bb5cdj3cohi60s6ccpico_20270212T110000Z",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=NnBnajJvYjNjbGkzMmI5bGM1ajNnYjlrY2txM2liYjFjaGhtNGJiNWNkajNjb2hpNjBzNmNjcGljb18yMDI3MDIxMlQxMTAwMDBaIGNiZWNrZXIucHdAZ29vZ2xlbWFpbC5jb20",
+      "created": "2018-08-21T09:37:04.000Z",
+      "updated": "2018-09-03T12:14:29.432Z",
+      "summary": "1Monatiges Susi 12.08.2018",
+      "creator": {
+        "email": "cbecker.pw@googlemail.com",
+        "displayName": "Christian Becker",
+        "self": true
+      },
+      "organizer": {
+        "email": "cbecker.pw@googlemail.com",
+        "displayName": "Christian Becker",
+        "self": true
+      },
+      "start": {
+        "dateTime": "2027-02-12T12:00:00+01:00",
+        "timeZone": "Europe/Berlin"
+      },
+      "end": {
+        "dateTime": "2027-02-12T13:00:00+01:00",
+        "timeZone": "Europe/Berlin"
+      },
+      "recurringEventId": "6pgj2ob3cli32b9lc5j3gb9kckq3ibb1chhm4bb5cdj3cohi60s6ccpico",
+      "originalStartTime": {
+        "dateTime": "2027-02-12T12:00:00+01:00",
+        "timeZone": "Europe/Berlin"
+      },
+      "iCalUID": "6pgj2ob3cli32b9lc5j3gb9kckq3ibb1chhm4bb5cdj3cohi60s6ccpico@google.com",
+      "sequence": 2,
+      "extendedProperties": {
+        "private": {
+          "eventAttendeeList": "[]"
+        }
+      },
+      "reminders": {
+        "useDefault": false,
+        "overrides": [
+          {
+            "method": "email",
+            "minutes": 10
+          },
+          {
+            "method": "popup",
+            "minutes": 10
+          }
+        ]
+      },
+      "eventType": "default"
+    },
+    {
+      "kind": "calendar#event",
+      "etag": "\"2788433703231000\"",
+      "id": "_b194ija38562qdhp68pjgcpi74siqd1i6grjgcho6spiqcpm6gp30d1m_20270213",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=X2IxOTRpamEzODU2MnFkaHA2OHBqZ2NwaTc0c2lxZDFpNmdyamdjaG82c3BpcWNwbTZncDMwZDFtXzIwMjcwMjEzIGNiZWNrZXIucHdAZ29vZ2xlbWFpbC5jb20",
+      "created": "2014-03-07T18:27:31.000Z",
+      "updated": "2014-03-07T18:27:31.223Z",
+      "summary": "Geburtstag: Christiane Maria Becker",
+      "creator": {
+        "email": "cbecker.pw@googlemail.com",
+        "displayName": "Christian Becker",
+        "self": true
+      },
+      "organizer": {
+        "email": "cbecker.pw@googlemail.com",
+        "displayName": "Christian Becker",
+        "self": true
+      },
+      "start": {
+        "date": "2027-02-13"
+      },
+      "end": {
+        "date": "2027-02-14"
+      },
+      "recurringEventId": "_b194ija38562qdhp68pjgcpi74siqd1i6grjgcho6spiqcpm6gp30d1m",
+      "originalStartTime": {
+        "date": "2027-02-13"
+      },
+      "transparency": "transparent",
+      "visibility": "public",
+      "iCalUID": "XRIMCAL-692383299-424782873-3642046",
+      "sequence": 0,
+      "extendedProperties": {
+        "shared": {
+          "X-MICROSOFT-CDO-BUSYSTATUS": "BUSY"
+        }
+      },
+      "reminders": {
+        "useDefault": false,
+        "overrides": [
+          {
+            "method": "popup",
+            "minutes": 15
+          }
+        ]
+      },
+      "eventType": "default"
+    },
+    {
+      "kind": "calendar#event",
+      "etag": "\"3324243136590000\"",
+      "id": "clgjce1jcks68b9i6th3eb9k6csj8b9p70qm2b9n6dgm8pb671i38cj6co_20270215T191500Z",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=Y2xnamNlMWpja3M2OGI5aTZ0aDNlYjlrNmNzajhiOXA3MHFtMmI5bjZkZ204cGI2NzFpMzhjajZjb18yMDI3MDIxNVQxOTE1MDBaIGNiZWNrZXIucHdAZ29vZ2xlbWFpbC5jb20",
+      "created": "2022-09-02T12:26:08.000Z",
+      "updated": "2022-09-02T12:26:08.295Z",
+      "summary": "Papiere/Hausarbeit",
+      "creator": {
+        "email": "cbecker.pw@googlemail.com",
+        "self": true
+      },
+      "organizer": {
+        "email": "cbecker.pw@googlemail.com",
+        "self": true
+      },
+      "start": {
+        "dateTime": "2027-02-15T20:15:00+01:00",
+        "timeZone": "Europe/Berlin"
+      },
+      "end": {
+        "dateTime": "2027-02-15T22:00:00+01:00",
+        "timeZone": "Europe/Berlin"
+      },
+      "recurringEventId": "clgjce1jcks68b9i6th3eb9k6csj8b9p70qm2b9n6dgm8pb671i38cj6co",
+      "originalStartTime": {
+        "dateTime": "2027-02-15T20:15:00+01:00",
+        "timeZone": "Europe/Berlin"
+      },
+      "iCalUID": "clgjce1jcks68b9i6th3eb9k6csj8b9p70qm2b9n6dgm8pb671i38cj6co@google.com",
+      "sequence": 0,
+      "reminders": {
+        "useDefault": true
+      },
+      "eventType": "default"
+    },
+    {
+      "kind": "calendar#event",
+      "etag": "\"3255932010294000\"",
+      "id": "cpijgeb169hj8b9lc5hm4b9kckq3ebb16dj68bb3c4sjidj464pj4p1h6g_20270218",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=Y3BpamdlYjE2OWhqOGI5bGM1aG00YjlrY2txM2ViYjE2ZGo2OGJiM2M0c2ppZGo0NjRwajRwMWg2Z18yMDI3MDIxOCBjYmVja2VyLnB3QGdvb2dsZW1haWwuY29t",
+      "created": "2021-08-03T04:46:45.000Z",
+      "updated": "2021-08-03T04:46:45.147Z",
+      "summary": "Geburtstag Oskar Erich 🤩",
+      "creator": {
+        "email": "cbecker.pw@googlemail.com",
+        "self": true
+      },
+      "organizer": {
+        "email": "cbecker.pw@googlemail.com",
+        "self": true
+      },
+      "start": {
+        "date": "2027-02-18"
+      },
+      "end": {
+        "date": "2027-02-19"
+      },
+      "recurringEventId": "cpijgeb169hj8b9lc5hm4b9kckq3ebb16dj68bb3c4sjidj464pj4p1h6g",
+      "originalStartTime": {
+        "date": "2027-02-18"
+      },
+      "transparency": "transparent",
+      "iCalUID": "cpijgeb169hj8b9lc5hm4b9kckq3ebb16dj68bb3c4sjidj464pj4p1h6g@google.com",
+      "sequence": 0,
+      "reminders": {
+        "useDefault": false,
+        "overrides": [
+          {
+            "method": "email",
+            "minutes": 430
+          },
+          {
+            "method": "popup",
+            "minutes": 10
+          }
+        ]
+      },
+      "eventType": "default"
+    },
+    {
+      "kind": "calendar#event",
+      "etag": "\"3580159312207678\"",
+      "id": "n4a6vmq83mtf5g6d5rc06d3q76_20270219",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=bjRhNnZtcTgzbXRmNWc2ZDVyYzA2ZDNxNzZfMjAyNzAyMTkgY2JlY2tlci5wd0Bnb29nbGVtYWlsLmNvbQ",
+      "created": "2023-11-07T07:54:14.000Z",
+      "updated": "2026-09-22T12:20:56.103Z",
+      "summary": "HO",
+      "creator": {
+        "email": "cbecker.pw@googlemail.com",
+        "self": true
+      },
+      "organizer": {
+        "email": "cbecker.pw@googlemail.com",
+        "self": true
+      },
+      "start": {
+        "date": "2027-02-19"
+      },
+      "end": {
+        "date": "2027-02-20"
+      },
+      "recurringEventId": "n4a6vmq83mtf5g6d5rc06d3q76",
+      "originalStartTime": {
+        "date": "2027-02-19"
+      },
+      "transparency": "transparent",
+      "iCalUID": "n4a6vmq83mtf5g6d5rc06d3q76@google.com",
+      "sequence": 3,
+      "reminders": {
+        "useDefault": false,
+        "overrides": [
+          {
+            "method": "email",
+            "minutes": 430
+          },
+          {
+            "method": "popup",
+            "minutes": 10
+          }
+        ]
+      },
+      "eventType": "default"
+    },
+    {
+      "kind": "calendar#event",
+      "etag": "\"3324243136590000\"",
+      "id": "clgjce1jcks68b9i6th3eb9k6csj8b9p70qm2b9n6dgm8pb671i38cj6co_20270222T191500Z",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=Y2xnamNlMWpja3M2OGI5aTZ0aDNlYjlrNmNzajhiOXA3MHFtMmI5bjZkZ204cGI2NzFpMzhjajZjb18yMDI3MDIyMlQxOTE1MDBaIGNiZWNrZXIucHdAZ29vZ2xlbWFpbC5jb20",
+      "created": "2022-09-02T12:26:08.000Z",
+      "updated": "2022-09-02T12:26:08.295Z",
+      "summary": "Papiere/Hausarbeit",
+      "creator": {
+        "email": "cbecker.pw@googlemail.com",
+        "self": true
+      },
+      "organizer": {
+        "email": "cbecker.pw@googlemail.com",
+        "self": true
+      },
+      "start": {
+        "dateTime": "2027-02-22T20:15:00+01:00",
+        "timeZone": "Europe/Berlin"
+      },
+      "end": {
+        "dateTime": "2027-02-22T22:00:00+01:00",
+        "timeZone": "Europe/Berlin"
+      },
+      "recurringEventId": "clgjce1jcks68b9i6th3eb9k6csj8b9p70qm2b9n6dgm8pb671i38cj6co",
+      "originalStartTime": {
+        "dateTime": "2027-02-22T20:15:00+01:00",
+        "timeZone": "Europe/Berlin"
+      },
+      "iCalUID": "clgjce1jcks68b9i6th3eb9k6csj8b9p70qm2b9n6dgm8pb671i38cj6co@google.com",
+      "sequence": 0,
+      "reminders": {
+        "useDefault": true
+      },
+      "eventType": "default"
+    },
+    {
+      "kind": "calendar#event",
+      "etag": "\"3580159312207678\"",
+      "id": "n4a6vmq83mtf5g6d5rc06d3q76_20270226",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=bjRhNnZtcTgzbXRmNWc2ZDVyYzA2ZDNxNzZfMjAyNzAyMjYgY2JlY2tlci5wd0Bnb29nbGVtYWlsLmNvbQ",
+      "created": "2023-11-07T07:54:14.000Z",
+      "updated": "2026-09-22T12:20:56.103Z",
+      "summary": "HO",
+      "creator": {
+        "email": "cbecker.pw@googlemail.com",
+        "self": true
+      },
+      "organizer": {
+        "email": "cbecker.pw@googlemail.com",
+        "self": true
+      },
+      "start": {
+        "date": "2027-02-26"
+      },
+      "end": {
+        "date": "2027-02-27"
+      },
+      "recurringEventId": "n4a6vmq83mtf5g6d5rc06d3q76",
+      "originalStartTime": {
+        "date": "2027-02-26"
+      },
+      "transparency": "transparent",
+      "iCalUID": "n4a6vmq83mtf5g6d5rc06d3q76@google.com",
+      "sequence": 3,
+      "reminders": {
+        "useDefault": false,
+        "overrides": [
+          {
+            "method": "email",
+            "minutes": 430
+          },
+          {
+            "method": "popup",
+            "minutes": 10
+          }
+        ]
+      },
+      "eventType": "default"
+    },
+    {
+      "kind": "calendar#event",
+      "etag": "\"3324243136590000\"",
+      "id": "clgjce1jcks68b9i6th3eb9k6csj8b9p70qm2b9n6dgm8pb671i38cj6co_20270301T191500Z",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=Y2xnamNlMWpja3M2OGI5aTZ0aDNlYjlrNmNzajhiOXA3MHFtMmI5bjZkZ204cGI2NzFpMzhjajZjb18yMDI3MDMwMVQxOTE1MDBaIGNiZWNrZXIucHdAZ29vZ2xlbWFpbC5jb20",
+      "created": "2022-09-02T12:26:08.000Z",
+      "updated": "2022-09-02T12:26:08.295Z",
+      "summary": "Papiere/Hausarbeit",
+      "creator": {
+        "email": "cbecker.pw@googlemail.com",
+        "self": true
+      },
+      "organizer": {
+        "email": "cbecker.pw@googlemail.com",
+        "self": true
+      },
+      "start": {
+        "dateTime": "2027-03-01T20:15:00+01:00",
+        "timeZone": "Europe/Berlin"
+      },
+      "end": {
+        "dateTime": "2027-03-01T22:00:00+01:00",
+        "timeZone": "Europe/Berlin"
+      },
+      "recurringEventId": "clgjce1jcks68b9i6th3eb9k6csj8b9p70qm2b9n6dgm8pb671i38cj6co",
+      "originalStartTime": {
+        "dateTime": "2027-03-01T20:15:00+01:00",
+        "timeZone": "Europe/Berlin"
+      },
+      "iCalUID": "clgjce1jcks68b9i6th3eb9k6csj8b9p70qm2b9n6dgm8pb671i38cj6co@google.com",
+      "sequence": 0,
+      "reminders": {
+        "useDefault": true
+      },
+      "eventType": "default"
+    },
+    {
+      "kind": "calendar#event",
+      "etag": "\"3580159312207678\"",
+      "id": "n4a6vmq83mtf5g6d5rc06d3q76_20270305",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=bjRhNnZtcTgzbXRmNWc2ZDVyYzA2ZDNxNzZfMjAyNzAzMDUgY2JlY2tlci5wd0Bnb29nbGVtYWlsLmNvbQ",
+      "created": "2023-11-07T07:54:14.000Z",
+      "updated": "2026-09-22T12:20:56.103Z",
+      "summary": "HO",
+      "creator": {
+        "email": "cbecker.pw@googlemail.com",
+        "self": true
+      },
+      "organizer": {
+        "email": "cbecker.pw@googlemail.com",
+        "self": true
+      },
+      "start": {
+        "date": "2027-03-05"
+      },
+      "end": {
+        "date": "2027-03-06"
+      },
+      "recurringEventId": "n4a6vmq83mtf5g6d5rc06d3q76",
+      "originalStartTime": {
+        "date": "2027-03-05"
+      },
+      "transparency": "transparent",
+      "iCalUID": "n4a6vmq83mtf5g6d5rc06d3q76@google.com",
+      "sequence": 3,
+      "reminders": {
+        "useDefault": false,
+        "overrides": [
+          {
+            "method": "email",
+            "minutes": 430
+          },
+          {
+            "method": "popup",
+            "minutes": 10
+          }
+        ]
+      },
+      "eventType": "default"
+    },
+    {
+      "kind": "calendar#event",
+      "etag": "\"3324243136590000\"",
+      "id": "clgjce1jcks68b9i6th3eb9k6csj8b9p70qm2b9n6dgm8pb671i38cj6co_20270308T191500Z",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=Y2xnamNlMWpja3M2OGI5aTZ0aDNlYjlrNmNzajhiOXA3MHFtMmI5bjZkZ204cGI2NzFpMzhjajZjb18yMDI3MDMwOFQxOTE1MDBaIGNiZWNrZXIucHdAZ29vZ2xlbWFpbC5jb20",
+      "created": "2022-09-02T12:26:08.000Z",
+      "updated": "2022-09-02T12:26:08.295Z",
+      "summary": "Papiere/Hausarbeit",
+      "creator": {
+        "email": "cbecker.pw@googlemail.com",
+        "self": true
+      },
+      "organizer": {
+        "email": "cbecker.pw@googlemail.com",
+        "self": true
+      },
+      "start": {
+        "dateTime": "2027-03-08T20:15:00+01:00",
+        "timeZone": "Europe/Berlin"
+      },
+      "end": {
+        "dateTime": "2027-03-08T22:00:00+01:00",
+        "timeZone": "Europe/Berlin"
+      },
+      "recurringEventId": "clgjce1jcks68b9i6th3eb9k6csj8b9p70qm2b9n6dgm8pb671i38cj6co",
+      "originalStartTime": {
+        "dateTime": "2027-03-08T20:15:00+01:00",
+        "timeZone": "Europe/Berlin"
+      },
+      "iCalUID": "clgjce1jcks68b9i6th3eb9k6csj8b9p70qm2b9n6dgm8pb671i38cj6co@google.com",
+      "sequence": 0,
+      "reminders": {
+        "useDefault": true
+      },
+      "eventType": "default"
+    },
+    {
+      "kind": "calendar#event",
+      "etag": "\"2788433385806000\"",
+      "id": "_b194ija38562qdhp68pjgcpi74siqd1i6grjgcho6ks2qc9l60p30chi60_20270310",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=X2IxOTRpamEzODU2MnFkaHA2OHBqZ2NwaTc0c2lxZDFpNmdyamdjaG82a3MycWM5bDYwcDMwY2hpNjBfMjAyNzAzMTAgY2JlY2tlci5wd0Bnb29nbGVtYWlsLmNvbQ",
+      "created": "2014-03-07T18:24:52.000Z",
+      "updated": "2014-03-07T18:24:52.852Z",
+      "summary": "Geburtstag: Jutta Gödde",
+      "creator": {
+        "email": "cbecker.pw@googlemail.com",
+        "displayName": "Christian Becker",
+        "self": true
+      },
+      "organizer": {
+        "email": "cbecker.pw@googlemail.com",
+        "displayName": "Christian Becker",
+        "self": true
+      },
+      "start": {
+        "date": "2027-03-10"
+      },
+      "end": {
+        "date": "2027-03-11"
+      },
+      "recurringEventId": "_b194ija38562qdhp68pjgcpi74siqd1i6grjgcho6ks2qc9l60p30chi60",
+      "originalStartTime": {
+        "date": "2027-03-10"
+      },
+      "transparency": "transparent",
+      "visibility": "public",
+      "iCalUID": "XRIMCAL-692383299-424782858-15020220",
+      "sequence": 0,
+      "extendedProperties": {
+        "shared": {
+          "X-MICROSOFT-CDO-BUSYSTATUS": "BUSY"
+        }
+      },
+      "reminders": {
+        "useDefault": false,
+        "overrides": [
+          {
+            "method": "popup",
+            "minutes": 15
+          }
+        ]
+      },
+      "eventType": "default"
+    },
+    {
+      "kind": "calendar#event",
+      "etag": "\"3580159312207678\"",
+      "id": "n4a6vmq83mtf5g6d5rc06d3q76_20270312",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=bjRhNnZtcTgzbXRmNWc2ZDVyYzA2ZDNxNzZfMjAyNzAzMTIgY2JlY2tlci5wd0Bnb29nbGVtYWlsLmNvbQ",
+      "created": "2023-11-07T07:54:14.000Z",
+      "updated": "2026-09-22T12:20:56.103Z",
+      "summary": "HO",
+      "creator": {
+        "email": "cbecker.pw@googlemail.com",
+        "self": true
+      },
+      "organizer": {
+        "email": "cbecker.pw@googlemail.com",
+        "self": true
+      },
+      "start": {
+        "date": "2027-03-12"
+      },
+      "end": {
+        "date": "2027-03-13"
+      },
+      "recurringEventId": "n4a6vmq83mtf5g6d5rc06d3q76",
+      "originalStartTime": {
+        "date": "2027-03-12"
+      },
+      "transparency": "transparent",
+      "iCalUID": "n4a6vmq83mtf5g6d5rc06d3q76@google.com",
+      "sequence": 3,
+      "reminders": {
+        "useDefault": false,
+        "overrides": [
+          {
+            "method": "email",
+            "minutes": 430
+          },
+          {
+            "method": "popup",
+            "minutes": 10
+          }
+        ]
+      },
+      "eventType": "default"
+    },
+    {
+      "kind": "calendar#event",
+      "etag": "\"3070821093916000\"",
+      "id": "6pgj2ob3cli32b9lc5j3gb9kckq3ibb1chhm4bb5cdj3cohi60s6ccpico_20270312T110000Z",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=NnBnajJvYjNjbGkzMmI5bGM1ajNnYjlrY2txM2liYjFjaGhtNGJiNWNkajNjb2hpNjBzNmNjcGljb18yMDI3MDMxMlQxMTAwMDBaIGNiZWNrZXIucHdAZ29vZ2xlbWFpbC5jb20",
+      "created": "2018-08-21T09:37:04.000Z",
+      "updated": "2018-09-03T12:14:29.432Z",
+      "summary": "1Monatiges Susi 12.08.2018",
+      "creator": {
+        "email": "cbecker.pw@googlemail.com",
+        "displayName": "Christian Becker",
+        "self": true
+      },
+      "organizer": {
+        "email": "cbecker.pw@googlemail.com",
+        "displayName": "Christian Becker",
+        "self": true
+      },
+      "start": {
+        "dateTime": "2027-03-12T12:00:00+01:00",
+        "timeZone": "Europe/Berlin"
+      },
+      "end": {
+        "dateTime": "2027-03-12T13:00:00+01:00",
+        "timeZone": "Europe/Berlin"
+      },
+      "recurringEventId": "6pgj2ob3cli32b9lc5j3gb9kckq3ibb1chhm4bb5cdj3cohi60s6ccpico",
+      "originalStartTime": {
+        "dateTime": "2027-03-12T12:00:00+01:00",
+        "timeZone": "Europe/Berlin"
+      },
+      "iCalUID": "6pgj2ob3cli32b9lc5j3gb9kckq3ibb1chhm4bb5cdj3cohi60s6ccpico@google.com",
+      "sequence": 2,
+      "extendedProperties": {
+        "private": {
+          "eventAttendeeList": "[]"
+        }
+      },
+      "reminders": {
+        "useDefault": false,
+        "overrides": [
+          {
+            "method": "email",
+            "minutes": 10
+          },
+          {
+            "method": "popup",
+            "minutes": 10
+          }
+        ]
+      },
+      "eventType": "default"
+    },
+    {
+      "kind": "calendar#event",
+      "etag": "\"3324243136590000\"",
+      "id": "clgjce1jcks68b9i6th3eb9k6csj8b9p70qm2b9n6dgm8pb671i38cj6co_20270315T191500Z",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=Y2xnamNlMWpja3M2OGI5aTZ0aDNlYjlrNmNzajhiOXA3MHFtMmI5bjZkZ204cGI2NzFpMzhjajZjb18yMDI3MDMxNVQxOTE1MDBaIGNiZWNrZXIucHdAZ29vZ2xlbWFpbC5jb20",
+      "created": "2022-09-02T12:26:08.000Z",
+      "updated": "2022-09-02T12:26:08.295Z",
+      "summary": "Papiere/Hausarbeit",
+      "creator": {
+        "email": "cbecker.pw@googlemail.com",
+        "self": true
+      },
+      "organizer": {
+        "email": "cbecker.pw@googlemail.com",
+        "self": true
+      },
+      "start": {
+        "dateTime": "2027-03-15T20:15:00+01:00",
+        "timeZone": "Europe/Berlin"
+      },
+      "end": {
+        "dateTime": "2027-03-15T22:00:00+01:00",
+        "timeZone": "Europe/Berlin"
+      },
+      "recurringEventId": "clgjce1jcks68b9i6th3eb9k6csj8b9p70qm2b9n6dgm8pb671i38cj6co",
+      "originalStartTime": {
+        "dateTime": "2027-03-15T20:15:00+01:00",
+        "timeZone": "Europe/Berlin"
+      },
+      "iCalUID": "clgjce1jcks68b9i6th3eb9k6csj8b9p70qm2b9n6dgm8pb671i38cj6co@google.com",
+      "sequence": 0,
+      "reminders": {
+        "useDefault": true
+      },
+      "eventType": "default"
+    },
+    {
+      "kind": "calendar#event",
+      "etag": "\"3580159312207678\"",
+      "id": "n4a6vmq83mtf5g6d5rc06d3q76_20270319",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=bjRhNnZtcTgzbXRmNWc2ZDVyYzA2ZDNxNzZfMjAyNzAzMTkgY2JlY2tlci5wd0Bnb29nbGVtYWlsLmNvbQ",
+      "created": "2023-11-07T07:54:14.000Z",
+      "updated": "2026-09-22T12:20:56.103Z",
+      "summary": "HO",
+      "creator": {
+        "email": "cbecker.pw@googlemail.com",
+        "self": true
+      },
+      "organizer": {
+        "email": "cbecker.pw@googlemail.com",
+        "self": true
+      },
+      "start": {
+        "date": "2027-03-19"
+      },
+      "end": {
+        "date": "2027-03-20"
+      },
+      "recurringEventId": "n4a6vmq83mtf5g6d5rc06d3q76",
+      "originalStartTime": {
+        "date": "2027-03-19"
+      },
+      "transparency": "transparent",
+      "iCalUID": "n4a6vmq83mtf5g6d5rc06d3q76@google.com",
+      "sequence": 3,
+      "reminders": {
+        "useDefault": false,
+        "overrides": [
+          {
+            "method": "email",
+            "minutes": 430
+          },
+          {
+            "method": "popup",
+            "minutes": 10
+          }
+        ]
+      },
+      "eventType": "default"
+    },
+    {
+      "kind": "calendar#event",
+      "etag": "\"3324243136590000\"",
+      "id": "clgjce1jcks68b9i6th3eb9k6csj8b9p70qm2b9n6dgm8pb671i38cj6co_20270322T191500Z",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=Y2xnamNlMWpja3M2OGI5aTZ0aDNlYjlrNmNzajhiOXA3MHFtMmI5bjZkZ204cGI2NzFpMzhjajZjb18yMDI3MDMyMlQxOTE1MDBaIGNiZWNrZXIucHdAZ29vZ2xlbWFpbC5jb20",
+      "created": "2022-09-02T12:26:08.000Z",
+      "updated": "2022-09-02T12:26:08.295Z",
+      "summary": "Papiere/Hausarbeit",
+      "creator": {
+        "email": "cbecker.pw@googlemail.com",
+        "self": true
+      },
+      "organizer": {
+        "email": "cbecker.pw@googlemail.com",
+        "self": true
+      },
+      "start": {
+        "dateTime": "2027-03-22T20:15:00+01:00",
+        "timeZone": "Europe/Berlin"
+      },
+      "end": {
+        "dateTime": "2027-03-22T22:00:00+01:00",
+        "timeZone": "Europe/Berlin"
+      },
+      "recurringEventId": "clgjce1jcks68b9i6th3eb9k6csj8b9p70qm2b9n6dgm8pb671i38cj6co",
+      "originalStartTime": {
+        "dateTime": "2027-03-22T20:15:00+01:00",
+        "timeZone": "Europe/Berlin"
+      },
+      "iCalUID": "clgjce1jcks68b9i6th3eb9k6csj8b9p70qm2b9n6dgm8pb671i38cj6co@google.com",
+      "sequence": 0,
+      "reminders": {
+        "useDefault": true
+      },
+      "eventType": "default"
+    },
+    {
+      "kind": "calendar#event",
+      "etag": "\"3580159312207678\"",
+      "id": "n4a6vmq83mtf5g6d5rc06d3q76_20270326",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=bjRhNnZtcTgzbXRmNWc2ZDVyYzA2ZDNxNzZfMjAyNzAzMjYgY2JlY2tlci5wd0Bnb29nbGVtYWlsLmNvbQ",
+      "created": "2023-11-07T07:54:14.000Z",
+      "updated": "2026-09-22T12:20:56.103Z",
+      "summary": "HO",
+      "creator": {
+        "email": "cbecker.pw@googlemail.com",
+        "self": true
+      },
+      "organizer": {
+        "email": "cbecker.pw@googlemail.com",
+        "self": true
+      },
+      "start": {
+        "date": "2027-03-26"
+      },
+      "end": {
+        "date": "2027-03-27"
+      },
+      "recurringEventId": "n4a6vmq83mtf5g6d5rc06d3q76",
+      "originalStartTime": {
+        "date": "2027-03-26"
+      },
+      "transparency": "transparent",
+      "iCalUID": "n4a6vmq83mtf5g6d5rc06d3q76@google.com",
+      "sequence": 3,
+      "reminders": {
+        "useDefault": false,
+        "overrides": [
+          {
+            "method": "email",
+            "minutes": 430
+          },
+          {
+            "method": "popup",
+            "minutes": 10
+          }
+        ]
+      },
+      "eventType": "default"
+    },
+    {
+      "kind": "calendar#event",
+      "etag": "\"3324243136590000\"",
+      "id": "clgjce1jcks68b9i6th3eb9k6csj8b9p70qm2b9n6dgm8pb671i38cj6co_20270329T181500Z",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=Y2xnamNlMWpja3M2OGI5aTZ0aDNlYjlrNmNzajhiOXA3MHFtMmI5bjZkZ204cGI2NzFpMzhjajZjb18yMDI3MDMyOVQxODE1MDBaIGNiZWNrZXIucHdAZ29vZ2xlbWFpbC5jb20",
+      "created": "2022-09-02T12:26:08.000Z",
+      "updated": "2022-09-02T12:26:08.295Z",
+      "summary": "Papiere/Hausarbeit",
+      "creator": {
+        "email": "cbecker.pw@googlemail.com",
+        "self": true
+      },
+      "organizer": {
+        "email": "cbecker.pw@googlemail.com",
+        "self": true
+      },
+      "start": {
+        "dateTime": "2027-03-29T20:15:00+02:00",
+        "timeZone": "Europe/Berlin"
+      },
+      "end": {
+        "dateTime": "2027-03-29T22:00:00+02:00",
+        "timeZone": "Europe/Berlin"
+      },
+      "recurringEventId": "clgjce1jcks68b9i6th3eb9k6csj8b9p70qm2b9n6dgm8pb671i38cj6co",
+      "originalStartTime": {
+        "dateTime": "2027-03-29T20:15:00+02:00",
+        "timeZone": "Europe/Berlin"
+      },
+      "iCalUID": "clgjce1jcks68b9i6th3eb9k6csj8b9p70qm2b9n6dgm8pb671i38cj6co@google.com",
+      "sequence": 0,
+      "reminders": {
+        "useDefault": true
+      },
+      "eventType": "default"
+    },
+    {
+      "kind": "calendar#event",
+      "etag": "\"3580159312207678\"",
+      "id": "n4a6vmq83mtf5g6d5rc06d3q76_20270402",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=bjRhNnZtcTgzbXRmNWc2ZDVyYzA2ZDNxNzZfMjAyNzA0MDIgY2JlY2tlci5wd0Bnb29nbGVtYWlsLmNvbQ",
+      "created": "2023-11-07T07:54:14.000Z",
+      "updated": "2026-09-22T12:20:56.103Z",
+      "summary": "HO",
+      "creator": {
+        "email": "cbecker.pw@googlemail.com",
+        "self": true
+      },
+      "organizer": {
+        "email": "cbecker.pw@googlemail.com",
+        "self": true
+      },
+      "start": {
+        "date": "2027-04-02"
+      },
+      "end": {
+        "date": "2027-04-03"
+      },
+      "recurringEventId": "n4a6vmq83mtf5g6d5rc06d3q76",
+      "originalStartTime": {
+        "date": "2027-04-02"
+      },
+      "transparency": "transparent",
+      "iCalUID": "n4a6vmq83mtf5g6d5rc06d3q76@google.com",
+      "sequence": 3,
+      "reminders": {
+        "useDefault": false,
+        "overrides": [
+          {
+            "method": "email",
+            "minutes": 430
+          },
+          {
+            "method": "popup",
+            "minutes": 10
+          }
+        ]
+      },
+      "eventType": "default"
+    },
+    {
+      "kind": "calendar#event",
+      "etag": "\"3324243136590000\"",
+      "id": "clgjce1jcks68b9i6th3eb9k6csj8b9p70qm2b9n6dgm8pb671i38cj6co_20270405T181500Z",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=Y2xnamNlMWpja3M2OGI5aTZ0aDNlYjlrNmNzajhiOXA3MHFtMmI5bjZkZ204cGI2NzFpMzhjajZjb18yMDI3MDQwNVQxODE1MDBaIGNiZWNrZXIucHdAZ29vZ2xlbWFpbC5jb20",
+      "created": "2022-09-02T12:26:08.000Z",
+      "updated": "2022-09-02T12:26:08.295Z",
+      "summary": "Papiere/Hausarbeit",
+      "creator": {
+        "email": "cbecker.pw@googlemail.com",
+        "self": true
+      },
+      "organizer": {
+        "email": "cbecker.pw@googlemail.com",
+        "self": true
+      },
+      "start": {
+        "dateTime": "2027-04-05T20:15:00+02:00",
+        "timeZone": "Europe/Berlin"
+      },
+      "end": {
+        "dateTime": "2027-04-05T22:00:00+02:00",
+        "timeZone": "Europe/Berlin"
+      },
+      "recurringEventId": "clgjce1jcks68b9i6th3eb9k6csj8b9p70qm2b9n6dgm8pb671i38cj6co",
+      "originalStartTime": {
+        "dateTime": "2027-04-05T20:15:00+02:00",
+        "timeZone": "Europe/Berlin"
+      },
+      "iCalUID": "clgjce1jcks68b9i6th3eb9k6csj8b9p70qm2b9n6dgm8pb671i38cj6co@google.com",
+      "sequence": 0,
+      "reminders": {
+        "useDefault": true
+      },
+      "eventType": "default"
+    },
+    {
+      "kind": "calendar#event",
+      "etag": "\"3580159312207678\"",
+      "id": "n4a6vmq83mtf5g6d5rc06d3q76_20270409",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=bjRhNnZtcTgzbXRmNWc2ZDVyYzA2ZDNxNzZfMjAyNzA0MDkgY2JlY2tlci5wd0Bnb29nbGVtYWlsLmNvbQ",
+      "created": "2023-11-07T07:54:14.000Z",
+      "updated": "2026-09-22T12:20:56.103Z",
+      "summary": "HO",
+      "creator": {
+        "email": "cbecker.pw@googlemail.com",
+        "self": true
+      },
+      "organizer": {
+        "email": "cbecker.pw@googlemail.com",
+        "self": true
+      },
+      "start": {
+        "date": "2027-04-09"
+      },
+      "end": {
+        "date": "2027-04-10"
+      },
+      "recurringEventId": "n4a6vmq83mtf5g6d5rc06d3q76",
+      "originalStartTime": {
+        "date": "2027-04-09"
+      },
+      "transparency": "transparent",
+      "iCalUID": "n4a6vmq83mtf5g6d5rc06d3q76@google.com",
+      "sequence": 3,
+      "reminders": {
+        "useDefault": false,
+        "overrides": [
+          {
+            "method": "email",
+            "minutes": 430
+          },
+          {
+            "method": "popup",
+            "minutes": 10
+          }
+        ]
+      },
+      "eventType": "default"
+    },
+    {
+      "kind": "calendar#event",
+      "etag": "\"3070821093916000\"",
+      "id": "6pgj2ob3cli32b9lc5j3gb9kckq3ibb1chhm4bb5cdj3cohi60s6ccpico_20270412T100000Z",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=NnBnajJvYjNjbGkzMmI5bGM1ajNnYjlrY2txM2liYjFjaGhtNGJiNWNkajNjb2hpNjBzNmNjcGljb18yMDI3MDQxMlQxMDAwMDBaIGNiZWNrZXIucHdAZ29vZ2xlbWFpbC5jb20",
+      "created": "2018-08-21T09:37:04.000Z",
+      "updated": "2018-09-03T12:14:29.432Z",
+      "summary": "1Monatiges Susi 12.08.2018",
+      "creator": {
+        "email": "cbecker.pw@googlemail.com",
+        "displayName": "Christian Becker",
+        "self": true
+      },
+      "organizer": {
+        "email": "cbecker.pw@googlemail.com",
+        "displayName": "Christian Becker",
+        "self": true
+      },
+      "start": {
+        "dateTime": "2027-04-12T12:00:00+02:00",
+        "timeZone": "Europe/Berlin"
+      },
+      "end": {
+        "dateTime": "2027-04-12T13:00:00+02:00",
+        "timeZone": "Europe/Berlin"
+      },
+      "recurringEventId": "6pgj2ob3cli32b9lc5j3gb9kckq3ibb1chhm4bb5cdj3cohi60s6ccpico",
+      "originalStartTime": {
+        "dateTime": "2027-04-12T12:00:00+02:00",
+        "timeZone": "Europe/Berlin"
+      },
+      "iCalUID": "6pgj2ob3cli32b9lc5j3gb9kckq3ibb1chhm4bb5cdj3cohi60s6ccpico@google.com",
+      "sequence": 2,
+      "extendedProperties": {
+        "private": {
+          "eventAttendeeList": "[]"
+        }
+      },
+      "reminders": {
+        "useDefault": false,
+        "overrides": [
+          {
+            "method": "email",
+            "minutes": 10
+          },
+          {
+            "method": "popup",
+            "minutes": 10
+          }
+        ]
+      },
+      "eventType": "default"
+    },
+    {
+      "kind": "calendar#event",
+      "etag": "\"3324243136590000\"",
+      "id": "clgjce1jcks68b9i6th3eb9k6csj8b9p70qm2b9n6dgm8pb671i38cj6co_20270412T181500Z",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=Y2xnamNlMWpja3M2OGI5aTZ0aDNlYjlrNmNzajhiOXA3MHFtMmI5bjZkZ204cGI2NzFpMzhjajZjb18yMDI3MDQxMlQxODE1MDBaIGNiZWNrZXIucHdAZ29vZ2xlbWFpbC5jb20",
+      "created": "2022-09-02T12:26:08.000Z",
+      "updated": "2022-09-02T12:26:08.295Z",
+      "summary": "Papiere/Hausarbeit",
+      "creator": {
+        "email": "cbecker.pw@googlemail.com",
+        "self": true
+      },
+      "organizer": {
+        "email": "cbecker.pw@googlemail.com",
+        "self": true
+      },
+      "start": {
+        "dateTime": "2027-04-12T20:15:00+02:00",
+        "timeZone": "Europe/Berlin"
+      },
+      "end": {
+        "dateTime": "2027-04-12T22:00:00+02:00",
+        "timeZone": "Europe/Berlin"
+      },
+      "recurringEventId": "clgjce1jcks68b9i6th3eb9k6csj8b9p70qm2b9n6dgm8pb671i38cj6co",
+      "originalStartTime": {
+        "dateTime": "2027-04-12T20:15:00+02:00",
+        "timeZone": "Europe/Berlin"
+      },
+      "iCalUID": "clgjce1jcks68b9i6th3eb9k6csj8b9p70qm2b9n6dgm8pb671i38cj6co@google.com",
+      "sequence": 0,
+      "reminders": {
+        "useDefault": true
+      },
+      "eventType": "default"
+    },
+    {
+      "kind": "calendar#event",
+      "etag": "\"3580159312207678\"",
+      "id": "n4a6vmq83mtf5g6d5rc06d3q76_20270416",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=bjRhNnZtcTgzbXRmNWc2ZDVyYzA2ZDNxNzZfMjAyNzA0MTYgY2JlY2tlci5wd0Bnb29nbGVtYWlsLmNvbQ",
+      "created": "2023-11-07T07:54:14.000Z",
+      "updated": "2026-09-22T12:20:56.103Z",
+      "summary": "HO",
+      "creator": {
+        "email": "cbecker.pw@googlemail.com",
+        "self": true
+      },
+      "organizer": {
+        "email": "cbecker.pw@googlemail.com",
+        "self": true
+      },
+      "start": {
+        "date": "2027-04-16"
+      },
+      "end": {
+        "date": "2027-04-17"
+      },
+      "recurringEventId": "n4a6vmq83mtf5g6d5rc06d3q76",
+      "originalStartTime": {
+        "date": "2027-04-16"
+      },
+      "transparency": "transparent",
+      "iCalUID": "n4a6vmq83mtf5g6d5rc06d3q76@google.com",
+      "sequence": 3,
+      "reminders": {
+        "useDefault": false,
+        "overrides": [
+          {
+            "method": "email",
+            "minutes": 430
+          },
+          {
+            "method": "popup",
+            "minutes": 10
+          }
+        ]
+      },
+      "eventType": "default"
+    },
+    {
+      "kind": "calendar#event",
+      "etag": "\"3324243136590000\"",
+      "id": "clgjce1jcks68b9i6th3eb9k6csj8b9p70qm2b9n6dgm8pb671i38cj6co_20270419T181500Z",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=Y2xnamNlMWpja3M2OGI5aTZ0aDNlYjlrNmNzajhiOXA3MHFtMmI5bjZkZ204cGI2NzFpMzhjajZjb18yMDI3MDQxOVQxODE1MDBaIGNiZWNrZXIucHdAZ29vZ2xlbWFpbC5jb20",
+      "created": "2022-09-02T12:26:08.000Z",
+      "updated": "2022-09-02T12:26:08.295Z",
+      "summary": "Papiere/Hausarbeit",
+      "creator": {
+        "email": "cbecker.pw@googlemail.com",
+        "self": true
+      },
+      "organizer": {
+        "email": "cbecker.pw@googlemail.com",
+        "self": true
+      },
+      "start": {
+        "dateTime": "2027-04-19T20:15:00+02:00",
+        "timeZone": "Europe/Berlin"
+      },
+      "end": {
+        "dateTime": "2027-04-19T22:00:00+02:00",
+        "timeZone": "Europe/Berlin"
+      },
+      "recurringEventId": "clgjce1jcks68b9i6th3eb9k6csj8b9p70qm2b9n6dgm8pb671i38cj6co",
+      "originalStartTime": {
+        "dateTime": "2027-04-19T20:15:00+02:00",
+        "timeZone": "Europe/Berlin"
+      },
+      "iCalUID": "clgjce1jcks68b9i6th3eb9k6csj8b9p70qm2b9n6dgm8pb671i38cj6co@google.com",
+      "sequence": 0,
+      "reminders": {
+        "useDefault": true
+      },
+      "eventType": "default"
+    },
+    {
+      "kind": "calendar#event",
+      "etag": "\"3580159312207678\"",
+      "id": "n4a6vmq83mtf5g6d5rc06d3q76_20270423",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=bjRhNnZtcTgzbXRmNWc2ZDVyYzA2ZDNxNzZfMjAyNzA0MjMgY2JlY2tlci5wd0Bnb29nbGVtYWlsLmNvbQ",
+      "created": "2023-11-07T07:54:14.000Z",
+      "updated": "2026-09-22T12:20:56.103Z",
+      "summary": "HO",
+      "creator": {
+        "email": "cbecker.pw@googlemail.com",
+        "self": true
+      },
+      "organizer": {
+        "email": "cbecker.pw@googlemail.com",
+        "self": true
+      },
+      "start": {
+        "date": "2027-04-23"
+      },
+      "end": {
+        "date": "2027-04-24"
+      },
+      "recurringEventId": "n4a6vmq83mtf5g6d5rc06d3q76",
+      "originalStartTime": {
+        "date": "2027-04-23"
+      },
+      "transparency": "transparent",
+      "iCalUID": "n4a6vmq83mtf5g6d5rc06d3q76@google.com",
+      "sequence": 3,
+      "reminders": {
+        "useDefault": false,
+        "overrides": [
+          {
+            "method": "email",
+            "minutes": 430
+          },
+          {
+            "method": "popup",
+            "minutes": 10
+          }
+        ]
+      },
+      "eventType": "default"
+    },
+    {
+      "kind": "calendar#event",
+      "etag": "\"3324243136590000\"",
+      "id": "clgjce1jcks68b9i6th3eb9k6csj8b9p70qm2b9n6dgm8pb671i38cj6co_20270426T181500Z",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=Y2xnamNlMWpja3M2OGI5aTZ0aDNlYjlrNmNzajhiOXA3MHFtMmI5bjZkZ204cGI2NzFpMzhjajZjb18yMDI3MDQyNlQxODE1MDBaIGNiZWNrZXIucHdAZ29vZ2xlbWFpbC5jb20",
+      "created": "2022-09-02T12:26:08.000Z",
+      "updated": "2022-09-02T12:26:08.295Z",
+      "summary": "Papiere/Hausarbeit",
+      "creator": {
+        "email": "cbecker.pw@googlemail.com",
+        "self": true
+      },
+      "organizer": {
+        "email": "cbecker.pw@googlemail.com",
+        "self": true
+      },
+      "start": {
+        "dateTime": "2027-04-26T20:15:00+02:00",
+        "timeZone": "Europe/Berlin"
+      },
+      "end": {
+        "dateTime": "2027-04-26T22:00:00+02:00",
+        "timeZone": "Europe/Berlin"
+      },
+      "recurringEventId": "clgjce1jcks68b9i6th3eb9k6csj8b9p70qm2b9n6dgm8pb671i38cj6co",
+      "originalStartTime": {
+        "dateTime": "2027-04-26T20:15:00+02:00",
+        "timeZone": "Europe/Berlin"
+      },
+      "iCalUID": "clgjce1jcks68b9i6th3eb9k6csj8b9p70qm2b9n6dgm8pb671i38cj6co@google.com",
+      "sequence": 0,
+      "reminders": {
+        "useDefault": true
+      },
+      "eventType": "default"
+    },
+    {
+      "kind": "calendar#event",
+      "etag": "\"3580159312207678\"",
+      "id": "n4a6vmq83mtf5g6d5rc06d3q76_20270430",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=bjRhNnZtcTgzbXRmNWc2ZDVyYzA2ZDNxNzZfMjAyNzA0MzAgY2JlY2tlci5wd0Bnb29nbGVtYWlsLmNvbQ",
+      "created": "2023-11-07T07:54:14.000Z",
+      "updated": "2026-09-22T12:20:56.103Z",
+      "summary": "HO",
+      "creator": {
+        "email": "cbecker.pw@googlemail.com",
+        "self": true
+      },
+      "organizer": {
+        "email": "cbecker.pw@googlemail.com",
+        "self": true
+      },
+      "start": {
+        "date": "2027-04-30"
+      },
+      "end": {
+        "date": "2027-05-01"
+      },
+      "recurringEventId": "n4a6vmq83mtf5g6d5rc06d3q76",
+      "originalStartTime": {
+        "date": "2027-04-30"
+      },
+      "transparency": "transparent",
+      "iCalUID": "n4a6vmq83mtf5g6d5rc06d3q76@google.com",
+      "sequence": 3,
+      "reminders": {
+        "useDefault": false,
+        "overrides": [
+          {
+            "method": "email",
+            "minutes": 430
+          },
+          {
+            "method": "popup",
+            "minutes": 10
+          }
+        ]
+      },
+      "eventType": "default"
+    },
+    {
+      "kind": "calendar#event",
+      "etag": "\"3324243136590000\"",
+      "id": "clgjce1jcks68b9i6th3eb9k6csj8b9p70qm2b9n6dgm8pb671i38cj6co_20270503T181500Z",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=Y2xnamNlMWpja3M2OGI5aTZ0aDNlYjlrNmNzajhiOXA3MHFtMmI5bjZkZ204cGI2NzFpMzhjajZjb18yMDI3MDUwM1QxODE1MDBaIGNiZWNrZXIucHdAZ29vZ2xlbWFpbC5jb20",
+      "created": "2022-09-02T12:26:08.000Z",
+      "updated": "2022-09-02T12:26:08.295Z",
+      "summary": "Papiere/Hausarbeit",
+      "creator": {
+        "email": "cbecker.pw@googlemail.com",
+        "self": true
+      },
+      "organizer": {
+        "email": "cbecker.pw@googlemail.com",
+        "self": true
+      },
+      "start": {
+        "dateTime": "2027-05-03T20:15:00+02:00",
+        "timeZone": "Europe/Berlin"
+      },
+      "end": {
+        "dateTime": "2027-05-03T22:00:00+02:00",
+        "timeZone": "Europe/Berlin"
+      },
+      "recurringEventId": "clgjce1jcks68b9i6th3eb9k6csj8b9p70qm2b9n6dgm8pb671i38cj6co",
+      "originalStartTime": {
+        "dateTime": "2027-05-03T20:15:00+02:00",
+        "timeZone": "Europe/Berlin"
+      },
+      "iCalUID": "clgjce1jcks68b9i6th3eb9k6csj8b9p70qm2b9n6dgm8pb671i38cj6co@google.com",
+      "sequence": 0,
+      "reminders": {
+        "useDefault": true
+      },
+      "eventType": "default"
+    },
+    {
+      "kind": "calendar#event",
+      "etag": "\"3580159312207678\"",
+      "id": "n4a6vmq83mtf5g6d5rc06d3q76_20270507",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=bjRhNnZtcTgzbXRmNWc2ZDVyYzA2ZDNxNzZfMjAyNzA1MDcgY2JlY2tlci5wd0Bnb29nbGVtYWlsLmNvbQ",
+      "created": "2023-11-07T07:54:14.000Z",
+      "updated": "2026-09-22T12:20:56.103Z",
+      "summary": "HO",
+      "creator": {
+        "email": "cbecker.pw@googlemail.com",
+        "self": true
+      },
+      "organizer": {
+        "email": "cbecker.pw@googlemail.com",
+        "self": true
+      },
+      "start": {
+        "date": "2027-05-07"
+      },
+      "end": {
+        "date": "2027-05-08"
+      },
+      "recurringEventId": "n4a6vmq83mtf5g6d5rc06d3q76",
+      "originalStartTime": {
+        "date": "2027-05-07"
+      },
+      "transparency": "transparent",
+      "iCalUID": "n4a6vmq83mtf5g6d5rc06d3q76@google.com",
+      "sequence": 3,
+      "reminders": {
+        "useDefault": false,
+        "overrides": [
+          {
+            "method": "email",
+            "minutes": 430
+          },
+          {
+            "method": "popup",
+            "minutes": 10
+          }
+        ]
+      },
+      "eventType": "default"
+    },
+    {
+      "kind": "calendar#event",
+      "etag": "\"3324243136590000\"",
+      "id": "clgjce1jcks68b9i6th3eb9k6csj8b9p70qm2b9n6dgm8pb671i38cj6co_20270510T181500Z",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=Y2xnamNlMWpja3M2OGI5aTZ0aDNlYjlrNmNzajhiOXA3MHFtMmI5bjZkZ204cGI2NzFpMzhjajZjb18yMDI3MDUxMFQxODE1MDBaIGNiZWNrZXIucHdAZ29vZ2xlbWFpbC5jb20",
+      "created": "2022-09-02T12:26:08.000Z",
+      "updated": "2022-09-02T12:26:08.295Z",
+      "summary": "Papiere/Hausarbeit",
+      "creator": {
+        "email": "cbecker.pw@googlemail.com",
+        "self": true
+      },
+      "organizer": {
+        "email": "cbecker.pw@googlemail.com",
+        "self": true
+      },
+      "start": {
+        "dateTime": "2027-05-10T20:15:00+02:00",
+        "timeZone": "Europe/Berlin"
+      },
+      "end": {
+        "dateTime": "2027-05-10T22:00:00+02:00",
+        "timeZone": "Europe/Berlin"
+      },
+      "recurringEventId": "clgjce1jcks68b9i6th3eb9k6csj8b9p70qm2b9n6dgm8pb671i38cj6co",
+      "originalStartTime": {
+        "dateTime": "2027-05-10T20:15:00+02:00",
+        "timeZone": "Europe/Berlin"
+      },
+      "iCalUID": "clgjce1jcks68b9i6th3eb9k6csj8b9p70qm2b9n6dgm8pb671i38cj6co@google.com",
+      "sequence": 0,
+      "reminders": {
+        "useDefault": true
+      },
+      "eventType": "default"
+    },
+    {
+      "kind": "calendar#event",
+      "etag": "\"3070821093916000\"",
+      "id": "6pgj2ob3cli32b9lc5j3gb9kckq3ibb1chhm4bb5cdj3cohi60s6ccpico_20270512T100000Z",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=NnBnajJvYjNjbGkzMmI5bGM1ajNnYjlrY2txM2liYjFjaGhtNGJiNWNkajNjb2hpNjBzNmNjcGljb18yMDI3MDUxMlQxMDAwMDBaIGNiZWNrZXIucHdAZ29vZ2xlbWFpbC5jb20",
+      "created": "2018-08-21T09:37:04.000Z",
+      "updated": "2018-09-03T12:14:29.432Z",
+      "summary": "1Monatiges Susi 12.08.2018",
+      "creator": {
+        "email": "cbecker.pw@googlemail.com",
+        "displayName": "Christian Becker",
+        "self": true
+      },
+      "organizer": {
+        "email": "cbecker.pw@googlemail.com",
+        "displayName": "Christian Becker",
+        "self": true
+      },
+      "start": {
+        "dateTime": "2027-05-12T12:00:00+02:00",
+        "timeZone": "Europe/Berlin"
+      },
+      "end": {
+        "dateTime": "2027-05-12T13:00:00+02:00",
+        "timeZone": "Europe/Berlin"
+      },
+      "recurringEventId": "6pgj2ob3cli32b9lc5j3gb9kckq3ibb1chhm4bb5cdj3cohi60s6ccpico",
+      "originalStartTime": {
+        "dateTime": "2027-05-12T12:00:00+02:00",
+        "timeZone": "Europe/Berlin"
+      },
+      "iCalUID": "6pgj2ob3cli32b9lc5j3gb9kckq3ibb1chhm4bb5cdj3cohi60s6ccpico@google.com",
+      "sequence": 2,
+      "extendedProperties": {
+        "private": {
+          "eventAttendeeList": "[]"
+        }
+      },
+      "reminders": {
+        "useDefault": false,
+        "overrides": [
+          {
+            "method": "email",
+            "minutes": 10
+          },
+          {
+            "method": "popup",
+            "minutes": 10
+          }
+        ]
+      },
+      "eventType": "default"
+    },
+    {
+      "kind": "calendar#event",
+      "etag": "\"3580159312207678\"",
+      "id": "n4a6vmq83mtf5g6d5rc06d3q76_20270514",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=bjRhNnZtcTgzbXRmNWc2ZDVyYzA2ZDNxNzZfMjAyNzA1MTQgY2JlY2tlci5wd0Bnb29nbGVtYWlsLmNvbQ",
+      "created": "2023-11-07T07:54:14.000Z",
+      "updated": "2026-09-22T12:20:56.103Z",
+      "summary": "HO",
+      "creator": {
+        "email": "cbecker.pw@googlemail.com",
+        "self": true
+      },
+      "organizer": {
+        "email": "cbecker.pw@googlemail.com",
+        "self": true
+      },
+      "start": {
+        "date": "2027-05-14"
+      },
+      "end": {
+        "date": "2027-05-15"
+      },
+      "recurringEventId": "n4a6vmq83mtf5g6d5rc06d3q76",
+      "originalStartTime": {
+        "date": "2027-05-14"
+      },
+      "transparency": "transparent",
+      "iCalUID": "n4a6vmq83mtf5g6d5rc06d3q76@google.com",
+      "sequence": 3,
+      "reminders": {
+        "useDefault": false,
+        "overrides": [
+          {
+            "method": "email",
+            "minutes": 430
+          },
+          {
+            "method": "popup",
+            "minutes": 10
+          }
+        ]
+      },
+      "eventType": "default"
+    },
+    {
+      "kind": "calendar#event",
+      "etag": "\"3154424338788000\"",
+      "id": "6di3ce366gsm6bb165gmab9kckp36bb1ccq66b9lckrjie1ic4s3co9n74_20270515T130000Z",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=NmRpM2NlMzY2Z3NtNmJiMTY1Z21hYjlrY2twMzZiYjFjY3E2NmI5bGNrcmppZTFpYzRzM2NvOW43NF8yMDI3MDUxNVQxMzAwMDBaIGNiZWNrZXIucHdAZ29vZ2xlbWFpbC5jb20",
+      "created": "2019-12-24T18:29:29.000Z",
+      "updated": "2019-12-24T18:29:29.394Z",
+      "summary": "Angelika Geburtstag",
+      "creator": {
+        "email": "cbecker.pw@googlemail.com",
+        "self": true
+      },
+      "organizer": {
+        "email": "cbecker.pw@googlemail.com",
+        "self": true
+      },
+      "start": {
+        "dateTime": "2027-05-15T15:00:00+02:00",
+        "timeZone": "Europe/Berlin"
+      },
+      "end": {
+        "dateTime": "2027-05-15T16:00:00+02:00",
+        "timeZone": "Europe/Berlin"
+      },
+      "recurringEventId": "6di3ce366gsm6bb165gmab9kckp36bb1ccq66b9lckrjie1ic4s3co9n74",
+      "originalStartTime": {
+        "dateTime": "2027-05-15T15:00:00+02:00",
+        "timeZone": "Europe/Berlin"
+      },
+      "iCalUID": "6di3ce366gsm6bb165gmab9kckp36bb1ccq66b9lckrjie1ic4s3co9n74@google.com",
+      "sequence": 0,
+      "reminders": {
+        "useDefault": true
+      },
+      "eventType": "default"
+    },
+    {
+      "kind": "calendar#event",
+      "etag": "\"3324243136590000\"",
+      "id": "clgjce1jcks68b9i6th3eb9k6csj8b9p70qm2b9n6dgm8pb671i38cj6co_20270517T181500Z",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=Y2xnamNlMWpja3M2OGI5aTZ0aDNlYjlrNmNzajhiOXA3MHFtMmI5bjZkZ204cGI2NzFpMzhjajZjb18yMDI3MDUxN1QxODE1MDBaIGNiZWNrZXIucHdAZ29vZ2xlbWFpbC5jb20",
+      "created": "2022-09-02T12:26:08.000Z",
+      "updated": "2022-09-02T12:26:08.295Z",
+      "summary": "Papiere/Hausarbeit",
+      "creator": {
+        "email": "cbecker.pw@googlemail.com",
+        "self": true
+      },
+      "organizer": {
+        "email": "cbecker.pw@googlemail.com",
+        "self": true
+      },
+      "start": {
+        "dateTime": "2027-05-17T20:15:00+02:00",
+        "timeZone": "Europe/Berlin"
+      },
+      "end": {
+        "dateTime": "2027-05-17T22:00:00+02:00",
+        "timeZone": "Europe/Berlin"
+      },
+      "recurringEventId": "clgjce1jcks68b9i6th3eb9k6csj8b9p70qm2b9n6dgm8pb671i38cj6co",
+      "originalStartTime": {
+        "dateTime": "2027-05-17T20:15:00+02:00",
+        "timeZone": "Europe/Berlin"
+      },
+      "iCalUID": "clgjce1jcks68b9i6th3eb9k6csj8b9p70qm2b9n6dgm8pb671i38cj6co@google.com",
+      "sequence": 0,
+      "reminders": {
+        "useDefault": true
+      },
+      "eventType": "default"
+    },
+    {
+      "kind": "calendar#event",
+      "etag": "\"3580159312207678\"",
+      "id": "n4a6vmq83mtf5g6d5rc06d3q76_20270521",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=bjRhNnZtcTgzbXRmNWc2ZDVyYzA2ZDNxNzZfMjAyNzA1MjEgY2JlY2tlci5wd0Bnb29nbGVtYWlsLmNvbQ",
+      "created": "2023-11-07T07:54:14.000Z",
+      "updated": "2026-09-22T12:20:56.103Z",
+      "summary": "HO",
+      "creator": {
+        "email": "cbecker.pw@googlemail.com",
+        "self": true
+      },
+      "organizer": {
+        "email": "cbecker.pw@googlemail.com",
+        "self": true
+      },
+      "start": {
+        "date": "2027-05-21"
+      },
+      "end": {
+        "date": "2027-05-22"
+      },
+      "recurringEventId": "n4a6vmq83mtf5g6d5rc06d3q76",
+      "originalStartTime": {
+        "date": "2027-05-21"
+      },
+      "transparency": "transparent",
+      "iCalUID": "n4a6vmq83mtf5g6d5rc06d3q76@google.com",
+      "sequence": 3,
+      "reminders": {
+        "useDefault": false,
+        "overrides": [
+          {
+            "method": "email",
+            "minutes": 430
+          },
+          {
+            "method": "popup",
+            "minutes": 10
+          }
+        ]
+      },
+      "eventType": "default"
+    },
+    {
+      "kind": "calendar#event",
+      "etag": "\"3324243136590000\"",
+      "id": "clgjce1jcks68b9i6th3eb9k6csj8b9p70qm2b9n6dgm8pb671i38cj6co_20270524T181500Z",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=Y2xnamNlMWpja3M2OGI5aTZ0aDNlYjlrNmNzajhiOXA3MHFtMmI5bjZkZ204cGI2NzFpMzhjajZjb18yMDI3MDUyNFQxODE1MDBaIGNiZWNrZXIucHdAZ29vZ2xlbWFpbC5jb20",
+      "created": "2022-09-02T12:26:08.000Z",
+      "updated": "2022-09-02T12:26:08.295Z",
+      "summary": "Papiere/Hausarbeit",
+      "creator": {
+        "email": "cbecker.pw@googlemail.com",
+        "self": true
+      },
+      "organizer": {
+        "email": "cbecker.pw@googlemail.com",
+        "self": true
+      },
+      "start": {
+        "dateTime": "2027-05-24T20:15:00+02:00",
+        "timeZone": "Europe/Berlin"
+      },
+      "end": {
+        "dateTime": "2027-05-24T22:00:00+02:00",
+        "timeZone": "Europe/Berlin"
+      },
+      "recurringEventId": "clgjce1jcks68b9i6th3eb9k6csj8b9p70qm2b9n6dgm8pb671i38cj6co",
+      "originalStartTime": {
+        "dateTime": "2027-05-24T20:15:00+02:00",
+        "timeZone": "Europe/Berlin"
+      },
+      "iCalUID": "clgjce1jcks68b9i6th3eb9k6csj8b9p70qm2b9n6dgm8pb671i38cj6co@google.com",
+      "sequence": 0,
+      "reminders": {
+        "useDefault": true
+      },
+      "eventType": "default"
+    },
+    {
+      "kind": "calendar#event",
+      "etag": "\"3580159312207678\"",
+      "id": "n4a6vmq83mtf5g6d5rc06d3q76_20270528",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=bjRhNnZtcTgzbXRmNWc2ZDVyYzA2ZDNxNzZfMjAyNzA1MjggY2JlY2tlci5wd0Bnb29nbGVtYWlsLmNvbQ",
+      "created": "2023-11-07T07:54:14.000Z",
+      "updated": "2026-09-22T12:20:56.103Z",
+      "summary": "HO",
+      "creator": {
+        "email": "cbecker.pw@googlemail.com",
+        "self": true
+      },
+      "organizer": {
+        "email": "cbecker.pw@googlemail.com",
+        "self": true
+      },
+      "start": {
+        "date": "2027-05-28"
+      },
+      "end": {
+        "date": "2027-05-29"
+      },
+      "recurringEventId": "n4a6vmq83mtf5g6d5rc06d3q76",
+      "originalStartTime": {
+        "date": "2027-05-28"
+      },
+      "transparency": "transparent",
+      "iCalUID": "n4a6vmq83mtf5g6d5rc06d3q76@google.com",
+      "sequence": 3,
+      "reminders": {
+        "useDefault": false,
+        "overrides": [
+          {
+            "method": "email",
+            "minutes": 430
+          },
+          {
+            "method": "popup",
+            "minutes": 10
+          }
+        ]
+      },
+      "eventType": "default"
+    },
+    {
+      "kind": "calendar#event",
+      "etag": "\"3324243136590000\"",
+      "id": "clgjce1jcks68b9i6th3eb9k6csj8b9p70qm2b9n6dgm8pb671i38cj6co_20270531T181500Z",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=Y2xnamNlMWpja3M2OGI5aTZ0aDNlYjlrNmNzajhiOXA3MHFtMmI5bjZkZ204cGI2NzFpMzhjajZjb18yMDI3MDUzMVQxODE1MDBaIGNiZWNrZXIucHdAZ29vZ2xlbWFpbC5jb20",
+      "created": "2022-09-02T12:26:08.000Z",
+      "updated": "2022-09-02T12:26:08.295Z",
+      "summary": "Papiere/Hausarbeit",
+      "creator": {
+        "email": "cbecker.pw@googlemail.com",
+        "self": true
+      },
+      "organizer": {
+        "email": "cbecker.pw@googlemail.com",
+        "self": true
+      },
+      "start": {
+        "dateTime": "2027-05-31T20:15:00+02:00",
+        "timeZone": "Europe/Berlin"
+      },
+      "end": {
+        "dateTime": "2027-05-31T22:00:00+02:00",
+        "timeZone": "Europe/Berlin"
+      },
+      "recurringEventId": "clgjce1jcks68b9i6th3eb9k6csj8b9p70qm2b9n6dgm8pb671i38cj6co",
+      "originalStartTime": {
+        "dateTime": "2027-05-31T20:15:00+02:00",
+        "timeZone": "Europe/Berlin"
+      },
+      "iCalUID": "clgjce1jcks68b9i6th3eb9k6csj8b9p70qm2b9n6dgm8pb671i38cj6co@google.com",
+      "sequence": 0,
+      "reminders": {
+        "useDefault": true
+      },
+      "eventType": "default"
+    },
+    {
+      "kind": "calendar#event",
+      "etag": "\"3580159312207678\"",
+      "id": "n4a6vmq83mtf5g6d5rc06d3q76_20270604",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=bjRhNnZtcTgzbXRmNWc2ZDVyYzA2ZDNxNzZfMjAyNzA2MDQgY2JlY2tlci5wd0Bnb29nbGVtYWlsLmNvbQ",
+      "created": "2023-11-07T07:54:14.000Z",
+      "updated": "2026-09-22T12:20:56.103Z",
+      "summary": "HO",
+      "creator": {
+        "email": "cbecker.pw@googlemail.com",
+        "self": true
+      },
+      "organizer": {
+        "email": "cbecker.pw@googlemail.com",
+        "self": true
+      },
+      "start": {
+        "date": "2027-06-04"
+      },
+      "end": {
+        "date": "2027-06-05"
+      },
+      "recurringEventId": "n4a6vmq83mtf5g6d5rc06d3q76",
+      "originalStartTime": {
+        "date": "2027-06-04"
+      },
+      "transparency": "transparent",
+      "iCalUID": "n4a6vmq83mtf5g6d5rc06d3q76@google.com",
+      "sequence": 3,
+      "reminders": {
+        "useDefault": false,
+        "overrides": [
+          {
+            "method": "email",
+            "minutes": 430
+          },
+          {
+            "method": "popup",
+            "minutes": 10
+          }
+        ]
+      },
+      "eventType": "default"
+    },
+    {
+      "kind": "calendar#event",
+      "etag": "\"2803970112839000\"",
+      "id": "_b194ija38562qdhp68pjgcpi74siqchk6cp3ae1i6criqc9g64rjee1h64_20270605",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=X2IxOTRpamEzODU2MnFkaHA2OHBqZ2NwaTc0c2lxY2hrNmNwM2FlMWk2Y3JpcWM5ZzY0cmplZTFoNjRfMjAyNzA2MDUgY2JlY2tlci5wd0Bnb29nbGVtYWlsLmNvbQ",
+      "created": "2014-06-05T16:17:35.000Z",
+      "updated": "2014-06-05T16:17:35.981Z",
+      "summary": "Geburtstag: Christoph Bente",
+      "creator": {
+        "email": "cbecker.pw@googlemail.com",
+        "displayName": "Christian Becker",
+        "self": true
+      },
+      "organizer": {
+        "email": "cbecker.pw@googlemail.com",
+        "displayName": "Christian Becker",
+        "self": true
+      },
+      "start": {
+        "date": "2027-06-05"
+      },
+      "end": {
+        "date": "2027-06-06"
+      },
+      "recurringEventId": "_b194ija38562qdhp68pjgcpi74siqchk6cp3ae1i6criqc9g64rjee1h64",
+      "originalStartTime": {
+        "date": "2027-06-05"
+      },
+      "transparency": "transparent",
+      "visibility": "public",
+      "iCalUID": "XRIMCAL-692383299-243258237-10177811",
+      "sequence": 0,
+      "extendedProperties": {
+        "shared": {
+          "X-MICROSOFT-CDO-BUSYSTATUS": "BUSY"
+        }
+      },
+      "reminders": {
+        "useDefault": false,
+        "overrides": [
+          {
+            "method": "popup",
+            "minutes": 15
+          }
+        ]
+      },
+      "eventType": "default"
+    },
+    {
+      "kind": "calendar#event",
+      "etag": "\"3324243136590000\"",
+      "id": "clgjce1jcks68b9i6th3eb9k6csj8b9p70qm2b9n6dgm8pb671i38cj6co_20270607T181500Z",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=Y2xnamNlMWpja3M2OGI5aTZ0aDNlYjlrNmNzajhiOXA3MHFtMmI5bjZkZ204cGI2NzFpMzhjajZjb18yMDI3MDYwN1QxODE1MDBaIGNiZWNrZXIucHdAZ29vZ2xlbWFpbC5jb20",
+      "created": "2022-09-02T12:26:08.000Z",
+      "updated": "2022-09-02T12:26:08.295Z",
+      "summary": "Papiere/Hausarbeit",
+      "creator": {
+        "email": "cbecker.pw@googlemail.com",
+        "self": true
+      },
+      "organizer": {
+        "email": "cbecker.pw@googlemail.com",
+        "self": true
+      },
+      "start": {
+        "dateTime": "2027-06-07T20:15:00+02:00",
+        "timeZone": "Europe/Berlin"
+      },
+      "end": {
+        "dateTime": "2027-06-07T22:00:00+02:00",
+        "timeZone": "Europe/Berlin"
+      },
+      "recurringEventId": "clgjce1jcks68b9i6th3eb9k6csj8b9p70qm2b9n6dgm8pb671i38cj6co",
+      "originalStartTime": {
+        "dateTime": "2027-06-07T20:15:00+02:00",
+        "timeZone": "Europe/Berlin"
+      },
+      "iCalUID": "clgjce1jcks68b9i6th3eb9k6csj8b9p70qm2b9n6dgm8pb671i38cj6co@google.com",
+      "sequence": 0,
+      "reminders": {
+        "useDefault": true
+      },
+      "eventType": "default"
+    },
+    {
+      "kind": "calendar#event",
+      "etag": "\"3580159312207678\"",
+      "id": "n4a6vmq83mtf5g6d5rc06d3q76_20270611",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=bjRhNnZtcTgzbXRmNWc2ZDVyYzA2ZDNxNzZfMjAyNzA2MTEgY2JlY2tlci5wd0Bnb29nbGVtYWlsLmNvbQ",
+      "created": "2023-11-07T07:54:14.000Z",
+      "updated": "2026-09-22T12:20:56.103Z",
+      "summary": "HO",
+      "creator": {
+        "email": "cbecker.pw@googlemail.com",
+        "self": true
+      },
+      "organizer": {
+        "email": "cbecker.pw@googlemail.com",
+        "self": true
+      },
+      "start": {
+        "date": "2027-06-11"
+      },
+      "end": {
+        "date": "2027-06-12"
+      },
+      "recurringEventId": "n4a6vmq83mtf5g6d5rc06d3q76",
+      "originalStartTime": {
+        "date": "2027-06-11"
+      },
+      "transparency": "transparent",
+      "iCalUID": "n4a6vmq83mtf5g6d5rc06d3q76@google.com",
+      "sequence": 3,
+      "reminders": {
+        "useDefault": false,
+        "overrides": [
+          {
+            "method": "email",
+            "minutes": 430
+          },
+          {
+            "method": "popup",
+            "minutes": 10
+          }
+        ]
+      },
+      "eventType": "default"
+    },
+    {
+      "kind": "calendar#event",
+      "etag": "\"3070821093916000\"",
+      "id": "6pgj2ob3cli32b9lc5j3gb9kckq3ibb1chhm4bb5cdj3cohi60s6ccpico_20270612T100000Z",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=NnBnajJvYjNjbGkzMmI5bGM1ajNnYjlrY2txM2liYjFjaGhtNGJiNWNkajNjb2hpNjBzNmNjcGljb18yMDI3MDYxMlQxMDAwMDBaIGNiZWNrZXIucHdAZ29vZ2xlbWFpbC5jb20",
+      "created": "2018-08-21T09:37:04.000Z",
+      "updated": "2018-09-03T12:14:29.432Z",
+      "summary": "1Monatiges Susi 12.08.2018",
+      "creator": {
+        "email": "cbecker.pw@googlemail.com",
+        "displayName": "Christian Becker",
+        "self": true
+      },
+      "organizer": {
+        "email": "cbecker.pw@googlemail.com",
+        "displayName": "Christian Becker",
+        "self": true
+      },
+      "start": {
+        "dateTime": "2027-06-12T12:00:00+02:00",
+        "timeZone": "Europe/Berlin"
+      },
+      "end": {
+        "dateTime": "2027-06-12T13:00:00+02:00",
+        "timeZone": "Europe/Berlin"
+      },
+      "recurringEventId": "6pgj2ob3cli32b9lc5j3gb9kckq3ibb1chhm4bb5cdj3cohi60s6ccpico",
+      "originalStartTime": {
+        "dateTime": "2027-06-12T12:00:00+02:00",
+        "timeZone": "Europe/Berlin"
+      },
+      "iCalUID": "6pgj2ob3cli32b9lc5j3gb9kckq3ibb1chhm4bb5cdj3cohi60s6ccpico@google.com",
+      "sequence": 2,
+      "extendedProperties": {
+        "private": {
+          "eventAttendeeList": "[]"
+        }
+      },
+      "reminders": {
+        "useDefault": false,
+        "overrides": [
+          {
+            "method": "email",
+            "minutes": 10
+          },
+          {
+            "method": "popup",
+            "minutes": 10
+          }
+        ]
+      },
+      "eventType": "default"
+    },
+    {
+      "kind": "calendar#event",
+      "etag": "\"3324243136590000\"",
+      "id": "clgjce1jcks68b9i6th3eb9k6csj8b9p70qm2b9n6dgm8pb671i38cj6co_20270614T181500Z",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=Y2xnamNlMWpja3M2OGI5aTZ0aDNlYjlrNmNzajhiOXA3MHFtMmI5bjZkZ204cGI2NzFpMzhjajZjb18yMDI3MDYxNFQxODE1MDBaIGNiZWNrZXIucHdAZ29vZ2xlbWFpbC5jb20",
+      "created": "2022-09-02T12:26:08.000Z",
+      "updated": "2022-09-02T12:26:08.295Z",
+      "summary": "Papiere/Hausarbeit",
+      "creator": {
+        "email": "cbecker.pw@googlemail.com",
+        "self": true
+      },
+      "organizer": {
+        "email": "cbecker.pw@googlemail.com",
+        "self": true
+      },
+      "start": {
+        "dateTime": "2027-06-14T20:15:00+02:00",
+        "timeZone": "Europe/Berlin"
+      },
+      "end": {
+        "dateTime": "2027-06-14T22:00:00+02:00",
+        "timeZone": "Europe/Berlin"
+      },
+      "recurringEventId": "clgjce1jcks68b9i6th3eb9k6csj8b9p70qm2b9n6dgm8pb671i38cj6co",
+      "originalStartTime": {
+        "dateTime": "2027-06-14T20:15:00+02:00",
+        "timeZone": "Europe/Berlin"
+      },
+      "iCalUID": "clgjce1jcks68b9i6th3eb9k6csj8b9p70qm2b9n6dgm8pb671i38cj6co@google.com",
+      "sequence": 0,
+      "reminders": {
+        "useDefault": true
+      },
+      "eventType": "default"
+    },
+    {
+      "kind": "calendar#event",
+      "etag": "\"3042619306962000\"",
+      "id": "_b194ija38562qdhp68pjgcpi74siqc9m6cpj8e1k6gs3eb9m64pjce1o74_20270615",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=X2IxOTRpamEzODU2MnFkaHA2OHBqZ2NwaTc0c2lxYzltNmNwajhlMWs2Z3MzZWI5bTY0cGpjZTFvNzRfMjAyNzA2MTUgY2JlY2tlci5wd0Bnb29nbGVtYWlsLmNvbQ",
+      "created": "2013-04-11T06:34:48.000Z",
+      "updated": "2023-02-21T05:26:57.117Z",
+      "summary": "Geburtstag: Stefan Becker",
+      "creator": {
+        "email": "cbecker.pw@googlemail.com",
+        "displayName": "Christian Becker",
+        "self": true
+      },
+      "organizer": {
+        "email": "cbecker.pw@googlemail.com",
+        "displayName": "Christian Becker",
+        "self": true
+      },
+      "start": {
+        "date": "2027-06-15"
+      },
+      "end": {
+        "date": "2027-06-16"
+      },
+      "recurringEventId": "_b194ija38562qdhp68pjgcpi74siqc9m6cpj8e1k6gs3eb9m64pjce1o74",
+      "originalStartTime": {
+        "date": "2027-06-15"
+      },
+      "transparency": "transparent",
+      "visibility": "public",
+      "iCalUID": "XRIMCAL-692383299-1633484487-6136889",
+      "sequence": 0,
+      "extendedProperties": {
+        "shared": {
+          "X-MICROSOFT-CDO-BUSYSTATUS": "BUSY"
+        }
+      },
+      "reminders": {
+        "useDefault": false,
+        "overrides": [
+          {
+            "method": "popup",
+            "minutes": 15
+          }
+        ]
+      },
+      "eventType": "default"
+    }
+  ],
+  "environment_variables": {},
+  "generated_at": "2026-09-23T20:27:11.694Z"
+}
