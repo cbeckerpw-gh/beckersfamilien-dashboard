@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beckers Familien Zentrale</title>
+    <style>
+        :root {
+            --bg-color: #1a1a2e;
+            --card-bg: #161625;
+            --text-color: #ffffff;
+            --solar-color: #ff9f43;
+            --zappi-color: #2ecc71;
+            --light-color: #f1c40f;
+            --papa-color: #3498db;
+            --mama-color: #e84393;
+            --oskar-color: #9b59b6;
+            --irma-color: #1abc9c;
+        }
+
+        body {
+            font-family: 'Comic Sans MS', 'Segoe UI', sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            margin: 0;
+            padding: 20px;
+        }
+
+        h1 { text-align: center; font-size: 2.5rem; margin-bottom: 25px; }
+
+        /* Raster-Layout für die oberen Kacheln */
+        .dashboard-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+            gap: 20px;
+            max-width: 1600px;
+            margin: 0 auto;
+        }
+
+        .card {
+            background-color: var(--card-bg);
+            border-radius: 20px;
+            padding: 20px;
+            box-shadow: 0 8px 20px rgba(0,0,0,0.4);
+            border: 2px solid #2c2c3e;
+        }
+
+        .card h2 { margin-top: 0; font-size: 1.8rem; display: flex; align-items: center; gap: 10px; border-bottom: 2px solid #2c2c3e; padding-bottom: 10px; }
+        
+        .value { font-size: 2.8rem; font-weight: bold; margin: 15px 0; }
+        .unit { font-size: 1.3rem; color: #888; }
+
+        /* Licht-Status */
+        .light-item { display: flex; justify-content: space-between; padding: 10px 0; font-size: 1.2rem; border-bottom: 1px solid #2c2c3e; }
+        .light-item:last-child { border-bottom: none; }
+        .status-on { color: var(--light-color); font-weight: bold; }
+        .status-off { color: #555; }
+
+        /* Kalender 4 Spalten */
+        .calendar-section { grid-column: 1 / -1; }
+        .calendar-columns { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 15px; margin-top: 15px; }
+        
+        .col { padding: 15px; border-radius: 15px; background: #222235; border-top: 6px solid #fff; }
+        .col h3 { margin-top: 0; text-align: center; font-size: 1.4rem; }
+        
+        .col-papa { border-top-color: var(--papa-color); }
+        .col-mama { border-top-color: var(--mama-color); }
+        .col-oskar { border-top-color: var(--oskar-color); }
+        .col-irma { border-top-color: var(--irma-color); }
+
+        .event-list { list-style: none; padding: 0; margin: 0; }
+        .event-item { padding: 8px 0; border-bottom: 1px solid #333; font-size: 1.05rem; display: flex; flex-direction: column; }
+        .event-time { font-size: 0.85rem; color: #aaa; font-weight: bold; margin-top: 2px; }
+
+        .footer { text-align: center; margin-top: 40px; color: #555; }
+    </style>
+</head>
+<body>
+
+    <h1>🏡 Beckers Familien-Zentrale 🏡</h1>
+
+    <div class="dashboard-grid">
+
+        <!-- ☀️ SUNGROW ENERGIEFLUSS -->
+        <div class="card" style="border-color: var(--solar-color)">
+            <h2 style="color: var(--solar-color)">☀️ Sonnen-Strom</h2>
+            <div class="value" id="pv-power">0 <span class="unit">Watt</span></div>
+            <p id="energy-flow">🔋 Batterie-Inhalt: <span id="battery-soc">0</span>%</p>
+        </div>
+
+        <!-- 🚗 ZAPPI WALLBOX -->
+        <div class="card" style="border-color: var(--zappi-color)">
+            <h2 style="color: var(--zappi-color)">🚗 Auto-Auflader</h2>
+            <div class="value" id="zappi-power">0.0 <span class="unit">kW</span></div>
+            <p>🔋 Status: <span id="zappi-status">-</span></p>
+        </div>
+
+        <!-- 💡 LICHTER-CHECK (SHELLY) -->
+        <div class="card" style="border-color: var(--light-color)">
+            <h2 style="color: var(--light-color)">💡 Wo brennt noch Licht?</h2>
+            <div id="lights-container">
+                <div class="light-item"><span>🔮 Oskars Zimmer:</span> <span id="light-oskar" class="status-off">Aus 💤</span></div>
+                <div class="light-item"><span>🎀 Irmas Zimmer:</span> <span id="light-irma" class="status-off">Aus 💤</span></div>
+                <div class="light-item"><span>🌳 Wohnzimmer:</span> <span id="light-living" class="status-off">Aus 💤</span></div>
+            </div>
+        </div>
+
+        <!-- 📅 4-SPALTEN-KALENDER -->
+        <div class="card calendar-section">
+            <h2>📅 Wer macht was?</h2>
+            <div class="calendar-columns">
+                
+                <div class="col col-papa">
+                    <h3>👨 Papa</h3>
+                    <ul class="event-list" id="list-papa"></ul>
+                </div>
+
+                <div class="col col-mama">
+                    <h3>👩 Mama</h3>
+                    <ul class="event-list" id="list-mama"></ul>
+                </div>
+
+                <div class="col col-oskar">
+                    <h3>🔮 Oskar</h3>
+                    <ul class="event-list" id="list-oskar"></ul>
+                </div>
+
+                <div class="col col-irma">
+                    <h3>🎀 Irma</h3>
+                    <ul class="event-list" id="list-irma"></ul>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
+    <div class="footer">Letztes Signal: <span id="last-update">-</span></div>
+
+    <script>
+        // Automatisch auf die JSON-Datei im selben Ordner ausgerichtet
+        const DATA_URL = 'daten.json';
+
+        // Ihre Google Kalender ID
+        const ID_PAPA_PRIVAT = "cbecker.pw@googlemail.com";
+        // Platzhalter für den Familienkalender (Später bei Bedarf anpassen)
+        const ID_FAMILIENKALENDER = "family12345@://google.com";
+
+        async function updateDashboard() {
+            try {
+                const response = await fetch(DATA_URL);
+                if (!response.ok) throw new Error('Datei noch nicht generiert');
+                const data = await response.json();
+
+                // 1. Energie-Anzeigen befüllen
+                document.getElementById('pv-power').innerHTML = `${data.pv_power_watt || 0} <span class="unit">Watt</span>`;
+                document.getElementById('battery-soc').innerText = data.battery_soc || 0;
+                document.getElementById('zappi-power').innerHTML = `${((data.zappi_power_watt || 0) / 1000).toFixed(1)} <span class="unit">kW</span>`;
+                document.getElementById('zappi-status').innerText = data.zappi_status || "Standby";
+
+                // Visueller Text für Kinder beim Stromfluss
+                const flowText = data.pv_power_watt > 500 ? "🌞 Die Sonne schenkt uns Strom!" : "🌙 Wir verbrauchen gespeicherten Strom.";
+                document.getElementById('energy-flow').innerHTML = `🔋 Batterie-Inhalt: ${data.battery_soc || 0}%<br><br>✨ ${flowText}`;
+
+                // 2. Shelly Lichter-Check steuern
+                setLightState('light-oskar', data.light_oskar_on, "💡 AN ✨", "Aus 💤");
+                setLightState('light-irma', data.light_irma_on, "💡 AN ✨", "Aus 💤");
+                setLightState('light-living', data.light_living_on, "💡 AN ✨", "Aus 💤");
+
+                // 3. Kalenderlisten leeren & sortieren
+                const lists = {
+                    papa: document.getElementById('list-papa'),
+                    mama: document.getElementById('list-mama'),
+                    oskar: document.getElementById('list-oskar'),
+                    irma: document.getElementById('list-irma')
+                };
+                Object.values(lists).forEach(l => l.innerHTML = '');
+                const counts = { papa: 0, mama: 0, oskar: 0, irma: 0 };
+
+                if (data.calendar_events && data.calendar_events.length > 0) {
+                    data.calendar_events.forEach(event => {
+                        const titleLower = event.title.toLowerCase();
+                        const originId = event.calendar_id;
+
+                        // Filter-Regeln nach Text & Herkunft
+                        if (originId === ID_PAPA_PRIVAT || titleLower.includes('papa')) {
+                            addEvent(lists.papa, event); counts.papa++;
+                        }
+                        if (titleLower.includes('mama')) {
+                            addEvent(lists.mama, event); counts.mama++;
+                        }
+                        if (titleLower.includes('oskar')) {
+                            addEvent(lists.oskar, event); counts.oskar++;
+                        }
+                        if (titleLower.includes('irma')) {
+                            addEvent(lists.irma, event); counts.irma++;
+                        }
+                    });
+                }
+
+                // Platzhalter für leere Tage
+                if(counts.papa === 0) lists.papa.innerHTML = '<li class="event-item" style="color:#555">Spielzeit! 🧸</li>';
+                if(counts.mama === 0) lists.mama.innerHTML = '<li class="event-item" style="color:#555">Spielzeit! 🧸</li>';
+                if(counts.oskar === 0) lists.oskar.innerHTML = '<li class="event-item" style="color:#555">Freizeit! 🚀</li>';
+                if(counts.irma === 0) lists.irma.innerHTML = '<li class="event-item" style="color:#555">Freizeit! 🦄</li>';
+
+                const jetzt = new Date(data.last_updated);
+                document.getElementById('last-update').innerText = jetzt.toLocaleTimeString('de-DE');
+
+            } catch (e) { 
+                console.log("Warte auf erste daten.json von Pipedream..."); 
+            }
+        }
+
+        function setLightState(elementId, isOn, onText, offText) {
+            const el = document.getElementById(elementId);
+            if (isOn) {
+                el.innerText = onText; el.className = "status-on";
+            } else {
+                el.innerText = offText; el.className = "status-off";
+            }
+        }
+
