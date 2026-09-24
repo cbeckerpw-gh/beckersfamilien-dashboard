@@ -18,15 +18,43 @@
             --irma-color: #1abc9c;
         }
 
+        /* NACHTMODUS STYLING OVERRIDE */
+        body.night-mode {
+            --bg-color: #0b0b1a;
+            --card-bg: #111122;
+            --solar-color: #7f8c8d;
+        }
+
         body {
             font-family: 'Comic Sans MS', 'Segoe UI', sans-serif;
             background-color: var(--bg-color);
             color: var(--text-color);
             margin: 0;
             padding: 20px;
+            transition: all 0.8s ease;
         }
 
         h1 { text-align: center; font-size: 2.5rem; margin-bottom: 25px; }
+
+        /* Nacht-Banner */
+        #night-banner {
+            display: none;
+            background: linear-gradient(45deg, #2c3e50, #130cb7);
+            color: white;
+            text-align: center;
+            padding: 15px;
+            font-size: 1.5rem;
+            border-radius: 15px;
+            margin-bottom: 20px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.5);
+            animation: pulse 3s infinite;
+        }
+
+        @keyframes pulse {
+            0% { opacity: 0.9; }
+            50% { opacity: 1; }
+            100% { opacity: 0.9; }
+        }
 
         .dashboard-grid {
             display: grid;
@@ -42,6 +70,9 @@
             padding: 20px;
             box-shadow: 0 8px 20px rgba(0,0,0,0.4);
             border: 2px solid #2c2c3e;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
         }
 
         .card h2 { margin-top: 0; font-size: 1.8rem; display: flex; align-items: center; gap: 10px; border-bottom: 2px solid #2c2c3e; padding-bottom: 10px; }
@@ -49,11 +80,35 @@
         .value { font-size: 2.8rem; font-weight: bold; margin: 15px 0; }
         .unit { font-size: 1.3rem; color: #888; }
 
-        .light-item { display: flex; justify-content: space-between; padding: 10px 0; font-size: 1.2rem; border-bottom: 1px solid #2c2c3e; }
-        .light-item:last-child { border-bottom: none; }
-        .status-on { color: var(--light-color); font-weight: bold; }
+        /* Lichter-Zentrale */
+        .light-item { 
+            display: flex; 
+            justify-content: space-between; 
+            align-items: center; 
+            padding: 12px; 
+            font-size: 1.3rem; 
+            border-radius: 10px;
+            background: #202035;
+            margin-bottom: 8px;
+        }
+        .status-on { color: var(--light-color); font-weight: bold; animation: glow 2s infinite alternate; }
         .status-off { color: #555; }
 
+        @keyframes glow {
+            from { text-shadow: 0 0 5px #f1c40f; }
+            to { text-shadow: 0 0 15px #f39c12; }
+        }
+
+        /* Zappi Fahrzeug-Icon */
+        .zappi-visual { font-size: 4rem; text-align: center; margin: 10px 0; transition: transform 0.5s; }
+        .zappi-charging { animation: bounce 1s infinite alternate; }
+
+        @keyframes bounce {
+            from { transform: translateY(0); }
+            to { transform: translateY(-10px); }
+        }
+
+        /* Kalender 4 Spalten */
         .calendar-section { grid-column: 1 / -1; }
         .calendar-columns { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 15px; margin-top: 15px; }
         
@@ -74,13 +129,16 @@
 </head>
 <body>
 
+    <!-- Automatisches Nacht-Banner für die Kinder -->
+    <div id="night-banner">🌙 Gute Nacht Oskar und Irma! Die Solaranlage schläft jetzt... 💤</div>
+
     <h1>🏡 Beckers Familien-Zentrale 🏡</h1>
 
     <div class="dashboard-grid">
 
         <!-- ☀️ SUNGROW ENERGIEFLUSS -->
         <div class="card" style="border-color: var(--solar-color)">
-            <h2 style="color: var(--solar-color)">☀️ Sonnen-Strom</h2>
+            <h2 style="color: var(--solar-color)" id="solar-headline">☀️ Sonnen-Strom</h2>
             <div class="value" id="pv-power">0 <span class="unit">Watt</span></div>
             <p id="energy-flow">🔋 Batterie-Inhalt: <span id="battery-soc">0</span>%</p>
         </div>
@@ -88,8 +146,9 @@
         <!-- 🚗 ZAPPI WALLBOX -->
         <div class="card" style="border-color: var(--zappi-color)">
             <h2 style="color: var(--zappi-color)">🚗 Auto-Auflader</h2>
+            <div class="zappi-visual" id="zappi-icon">🚗</div>
             <div class="value" id="zappi-power">0.0 <span class="unit">kW</span></div>
-            <p>🔋 Status: <span id="zappi-status">-</span></p>
+            <p style="text-align: center; margin: 0;">🔋 Status: <span id="zappi-status">Standby</span></p>
         </div>
 
         <!-- 💡 LICHTER-CHECK (SHELLY) -->
@@ -136,91 +195,46 @@
 
     <script>
         const DATA_URL = 'daten.json';
-
         const ID_PAPA_PRIVAT = "cbecker.pw@googlemail.com";
-        const ID_FAMILIENKALENDER = "family12345@group.calendar.google.com"; 
 
         async function updateDashboard() {
             try {
                 const response = await fetch(DATA_URL);
-                if (!response.ok) throw new Error('Datei noch nicht generiert');
+                if (!response.ok) throw new Error('Warte auf daten.json...');
                 const data = await response.json();
 
-                // 1. Energie-Anzeigen befüllen
-                document.getElementById('pv-power').innerHTML = `${data.pv_power_watt || 0} <span class="unit">Watt</span>`;
-                document.getElementById('battery-soc').innerText = data.battery_soc || 0;
-                document.getElementById('zappi-power').innerHTML = `${((data.zappi_power_watt || 0) / 1000).toFixed(1)} <span class="unit">kW</span>`;
-                document.getElementById('zappi-status').innerText = data.zappi_status || "Standby";
-
-                const flowText = data.pv_power_watt > 500 ? "🌞 Die Sonne schenkt uns Strom!" : "🌙 Wir verbrauchen gespeicherten Strom.";
-                document.getElementById('energy-flow').innerHTML = `🔋 Batterie-Inhalt: ${data.battery_soc || 0}%<br><br>✨ ${flowText}`;
-
-                // 2. Shelly Lichter-Check steuern
-                setLightState('light-oskar', data.light_oskar_on, "💡 AN ✨", "Aus 💤");
-                setLightState('light-irma', data.light_irma_on, "💡 AN ✨", "Aus 💤");
-                setLightState('light-living', data.light_living_on, "💡 AN ✨", "Aus 💤");
-
-                // 3. Kalender-Sortierung
-                const lists = {
-                    papa: document.getElementById('list-papa'),
-                    mama: document.getElementById('list-mama'),
-                    oskar: document.getElementById('list-oskar'),
-                    irma: document.getElementById('list-irma')
-                };
-                Object.values(lists).forEach(l => l.innerHTML = '');
-                const counts = { papa: 0, mama: 0, oskar: 0, irma: 0 };
-
-                if (data.calendar_events && data.calendar_events.length > 0) {
-                    data.calendar_events.forEach(event => {
-                        const titleLower = event.title.toLowerCase();
-                        const originId = event.calendar_id;
-
-                        if (originId === ID_PAPA_PRIVAT || titleLower.includes('papa')) {
-                            addEvent(lists.papa, event); counts.papa++;
-                        }
-                        if (titleLower.includes('mama')) {
-                            addEvent(lists.mama, event); counts.mama++;
-                        }
-                        if (titleLower.includes('oskar')) {
-                            addEvent(lists.oskar, event); counts.oskar++;
-                        }
-                        if (titleLower.includes('irma')) {
-                            addEvent(lists.irma, event); counts.irma++;
-                        }
-                    });
+                // AUTOMATISCHER TAG/NACHT-MODUS OPTISCH STEUERN
+                // Wenn Pipedream "is_night: true" sendet, schalten wir das Design um
+                if (data.is_night === true) {
+                    document.body.classList.add('night-mode');
+                    document.getElementById('night-banner').style.display = 'block';
+                    document.getElementById('solar-headline').innerHTML = '🌙 Nacht-Modus';
+                    document.getElementById('pv-power').innerHTML = `💤 <span class="unit">Schlafe...</span>`;
+                } else {
+                    document.body.classList.remove('night-mode');
+                    document.getElementById('night-banner').style.display = 'none';
+                    document.getElementById('solar-headline').innerHTML = '☀️ Sonnen-Strom';
+                    document.getElementById('pv-power').innerHTML = `${data.pv_power_watt || 0} <span class="unit">Watt</span>`;
                 }
 
-                if(counts.papa === 0) lists.papa.innerHTML = '<li class="event-item" style="color:#555">Spielzeit! 🧸</li>';
-                if(counts.mama === 0) lists.mama.innerHTML = '<li class="event-item" style="color:#555">Spielzeit! 🧸</li>';
-                if(counts.oskar === 0) lists.oskar.innerHTML = '<li class="event-item" style="color:#555">Freizeit! 🚀</li>';
-                if(counts.irma === 0) lists.irma.innerHTML = '<li class="event-item" style="color:#555">Freizeit! 🦄</li>';
+                // Batterie-Inhalt befüllen (bleibt nachts sichtbar)
+                document.getElementById('battery-soc').innerText = data.battery_soc || 0;
+                
+                // Zappi Wallbox steuern
+                document.getElementById('zappi-power').innerHTML = `${((data.zappi_power_watt || 0) / 1000).toFixed(1)} <span class="unit">kW</span>`;
+                document.getElementById('zappi-status').innerText = data.zappi_status || "Standby";
+                
+                const zappiIcon = document.getElementById('zappi-icon');
+                if (data.zappi_status === "Lädt" || (data.zappi_power_watt || 0) > 100) {
+                    zappiIcon.innerText = "⚡🔌🚗";
+                    zappiIcon.className = "zappi-visual zappi-charging";
+                } else {
+                    zappiIcon.innerText = "🚗";
+                    zappiIcon.className = "zappi-visual";
+                }
 
-                const jetzt = new Date(data.last_updated);
-                document.getElementById('last-update').innerText = jetzt.toLocaleTimeString('de-DE');
-
-            } catch (e) { 
-                console.log("Fehler beim Verarbeiten der json:", e); 
-            }
-        }
-
-        function setLightState(elementId, isOn, onText, offText) {
-            const el = document.getElementById(elementId);
-            if (isOn) {
-                el.innerText = onText; el.className = "status-on";
-            } else {
-                el.innerText = offText; el.className = "status-off";
-            }
-        }
-
-        function addEvent(listElement, event) {
-            const li = document.createElement('li');
-            li.className = 'event-item';
-            li.innerHTML = `<strong>${event.title}</strong><span class="event-time">⏰ ${event.time}</span>`;
-            listElement.appendChild(li);
-        }
-
-        updateDashboard();
-        setInterval(updateDashboard, 10000);
-    </script>
-</body>
-</html>
+                // Text für Kinder beim Stromfluss (nur tagsüber)
+                if (data.is_night !== true) {
+                    const flowText = data.pv_power_watt > 500 ? "🌞 Die Sonne schenkt uns Strom!" : "🔋 Wir verbrauchen gespeicherten Strom.";
+                    document.getElementById('energy-flow').innerHTML = `🔋 Batterie-Inhalt: ${data.battery_soc || 0}%<br><br>✨ ${flowText}`;
+                } else {
